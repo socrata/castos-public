@@ -1,0 +1,9 @@
+.container{"ng-controller"=>"issuerSelectionController", "ng-cloak" => "true"}
+  .row{"ng-show"=>"selectionView"}
+    = render 'selection_form'
+
+  .row{"ng-show"=>"comparisonView"}
+    = render 'comparison_results'
+
+  .row{"ng-if"=>"printableTableView"}
+    = render 'printable_table'

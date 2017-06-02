@@ -1,0 +1,2533 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 03 Dec 2015 23:33:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Fri, 06 Nov 2015 00:13:57 UTC
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmt Fee",
+          "issuer_dataset_match" : "UW Mngmt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "MKR Authority",
+          "issuer_dataset_match" : "MKR Authority"
+        }
+        , {
+          "permanent_castos" : "Local Obligation",
+          "issuer_dataset_match" : "Local Obligation"
+        }
+        , {
+          "permanent_castos" : "MKR CDIAC Number",
+          "issuer_dataset_match" : "MKR CDIAC Number"
+        }
+         ]
+    http_version: 
+  recorded_at: Thu, 03 Dec 2015 23:33:33 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/yng6-vaxy.json?$limit=50000&$select=cdiac_number%20as%20cdiac_number_alias,%20issuer%20as%20issuer_alias,%20issuer_county%20as%20issuer_county_alias,%20sold_status%20as%20sold_status_alias,%20sale_date%20as%20sale_date_alias,%20debt_type%20as%20debt_type_alias,%20principal_amount%20as%20principal_amount_alias,%20source_of_repayment%20as%20source_of_repayment_alias,%20purpose%20as%20purpose_alias,%20refunding_amount%20as%20refunding_amount_alias,%20issuer_group%20as%20issuer_group_alias,%20total_issuance_costs%20as%20total_issuance_costs_alias,%20new_money%20as%20new_money_alias,%20issuer_type%20as%20issuer_type_alias,%20net_issue_discount%20as%20net_issue_discount_alias,%20issue_costs_pct_of_principal_amt%20as%20issue_cost_percent_of_principal_alias&$where=(issuer_type%20=%20'State%20Programs%20%26%20Department'%20AND%20issuer_group%20=%20'UC%20%26%20CSU')%20AND%20(issuer%20=%20'The%20Regents%20of%20the%20University%20of%20California'%20OR%20issuer%20=%20'State%20of%20California')
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 03 Dec 2015 23:33:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Mon, 23 Nov 2015 10:11:22 PST
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["new_money_alias","refunding_amount_alias","cdiac_number_alias","debt_type_alias",":updated_at","total_issuance_costs_alias","sold_status_alias","net_issue_discount_alias","issuer_county_alias","issue_cost_percent_of_principal_alias","issuer_type_alias","issuer_group_alias","issuer_alias","purpose_alias","principal_amount_alias",":id",":created_at","sale_date_alias","source_of_repayment_alias"]'
+      X-Soda2-Types:
+      - '["number","number","text","text","meta_data","number","text","text","text","number","text","text","text","text","number","meta_data","meta_data","calendar_date","text"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "new_money_alias" : "45945000",
+          "cdiac_number_alias" : "1985-0566",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "59100",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.13",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "45945000",
+          "sale_date_alias" : "1985-06-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "43535000",
+          "cdiac_number_alias" : "1985-0683",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "145400",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.33",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Single-Family Housing",
+          "principal_amount_alias" : "43535000",
+          "sale_date_alias" : "1985-08-01T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "1243400",
+          "cdiac_number_alias" : "1985-1112",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "9115600",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "10359000",
+          "sale_date_alias" : "1985-11-08T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "14925000",
+          "cdiac_number_alias" : "1986-0135",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Recreation and Sports Facilities",
+          "principal_amount_alias" : "14925000",
+          "sale_date_alias" : "1986-05-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "8175000",
+          "cdiac_number_alias" : "1986-0136",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Recreation and Sports Facilities",
+          "principal_amount_alias" : "8175000",
+          "sale_date_alias" : "1986-05-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "21200000",
+          "cdiac_number_alias" : "1986-0134",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "100000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.47",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Equipment",
+          "principal_amount_alias" : "21200000",
+          "sale_date_alias" : "1986-05-20T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "47295000",
+          "cdiac_number_alias" : "1986-0543",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "100000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.21",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "47295000",
+          "sale_date_alias" : "1986-08-06T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "375000000",
+          "cdiac_number_alias" : "1986-0778",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "285000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.08",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "375000000",
+          "sale_date_alias" : "1986-08-28T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "111345000",
+          "cdiac_number_alias" : "1986-1052",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "334516",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.3",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "111345000",
+          "sale_date_alias" : "1986-11-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "11000000",
+          "cdiac_number_alias" : "1987-0079",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "44449",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.4",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "11000000",
+          "sale_date_alias" : "1987-03-10T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "8510000",
+          "cdiac_number_alias" : "1987-0304",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "8510000",
+          "sale_date_alias" : "1987-04-30T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1987-0664",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "8700000",
+          "total_issuance_costs_alias" : "25781.05",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.3",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "8700000",
+          "sale_date_alias" : "1987-08-24T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "13050000",
+          "cdiac_number_alias" : "1987-0829",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "13050000",
+          "sale_date_alias" : "1987-08-26T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1987-0667",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "40430000",
+          "total_issuance_costs_alias" : "172856",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.43",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Equipment",
+          "principal_amount_alias" : "40430000",
+          "sale_date_alias" : "1987-09-01T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1988-0320",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "47010000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "47010000",
+          "sale_date_alias" : "1988-05-17T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1988-0321",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "43555000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "43555000",
+          "sale_date_alias" : "1988-05-17T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "30530000",
+          "cdiac_number_alias" : "1988-0552",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "30530000",
+          "sale_date_alias" : "1988-07-21T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "86120000",
+          "cdiac_number_alias" : "1988-0551",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "86120000",
+          "sale_date_alias" : "1988-09-13T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "13175000",
+          "cdiac_number_alias" : "1989-0459",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "13175000",
+          "sale_date_alias" : "1989-06-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "250000000",
+          "cdiac_number_alias" : "1989-1099",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "250000000",
+          "sale_date_alias" : "1989-12-05T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "35000000",
+          "cdiac_number_alias" : "1990-0069",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "175000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Health Care Purposes (Equipment, etc.)",
+          "principal_amount_alias" : "35000000",
+          "sale_date_alias" : "1990-03-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "50000000",
+          "cdiac_number_alias" : "1990-0257",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "175000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.35",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "50000000",
+          "sale_date_alias" : "1990-05-30T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "119315",
+          "cdiac_number_alias" : "1991-0041",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "362469",
+          "total_issuance_costs_alias" : "86180.96",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "17.89",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "481784",
+          "sale_date_alias" : "1991-01-31T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "12403362",
+          "cdiac_number_alias" : "1991-0183",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "2471638",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "14875000",
+          "sale_date_alias" : "1991-03-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "188000000",
+          "cdiac_number_alias" : "1991-0294",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "188000000",
+          "sale_date_alias" : "1991-04-30T00:00:00",
+          "source_of_repayment_alias" : "Other sources"
+        }
+        , {
+          "new_money_alias" : "186000000",
+          "cdiac_number_alias" : "1991-0762",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "200000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.11",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "186000000",
+          "sale_date_alias" : "1991-07-17T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "149410",
+          "cdiac_number_alias" : "1991-1119",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "2234",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.5",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Equipment",
+          "principal_amount_alias" : "149410",
+          "sale_date_alias" : "1991-08-13T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1991-1394",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "359035000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "359035000",
+          "sale_date_alias" : "1991-12-06T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "488717",
+          "cdiac_number_alias" : "1991-1121",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "488717",
+          "sale_date_alias" : "1992-02-20T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "364735",
+          "cdiac_number_alias" : "1992-0250",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "364735",
+          "sale_date_alias" : "1992-04-03T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "104529",
+          "cdiac_number_alias" : "1992-0710",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "11850.73",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "11.34",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "104529",
+          "sale_date_alias" : "1992-09-25T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "281400",
+          "cdiac_number_alias" : "1992-1600",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "281400",
+          "sale_date_alias" : "1992-12-07T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "228000",
+          "cdiac_number_alias" : "1993-0035",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "228000",
+          "sale_date_alias" : "1993-02-04T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "39865000",
+          "cdiac_number_alias" : "1993-0321",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "39865000",
+          "sale_date_alias" : "1993-05-05T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1993-0553",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "255175000",
+          "total_issuance_costs_alias" : "700000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.27",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "255175000",
+          "sale_date_alias" : "1993-06-09T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "1560280",
+          "cdiac_number_alias" : "1993-1459",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "472884720",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "474445000",
+          "sale_date_alias" : "1993-08-31T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1993-1617",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "170705000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "170705000",
+          "sale_date_alias" : "1993-10-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1993-1737",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "186765000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "186765000",
+          "sale_date_alias" : "1993-11-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1994-0049",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "300525000",
+          "total_issuance_costs_alias" : "627241",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.21",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "300525000",
+          "sale_date_alias" : "1994-01-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1994-0064",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "136530000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "136530000",
+          "sale_date_alias" : "1994-02-23T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "307525000",
+          "cdiac_number_alias" : "1994-0596",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "307525000",
+          "sale_date_alias" : "1994-05-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "103680000",
+          "cdiac_number_alias" : "1995-0424",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "475474",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.46",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "103680000",
+          "sale_date_alias" : "1995-06-20T00:00:00",
+          "source_of_repayment_alias" : "Grants"
+        }
+        , {
+          "new_money_alias" : "345880000",
+          "cdiac_number_alias" : "1996-1022",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "550000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.16",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "345880000",
+          "sale_date_alias" : "1996-07-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "525000000",
+          "cdiac_number_alias" : "1996-1551",
+          "debt_type_alias" : "Commercial paper",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Project, Interim Financing",
+          "principal_amount_alias" : "525000000",
+          "sale_date_alias" : "1996-10-28T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1997-1654",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "283930000",
+          "total_issuance_costs_alias" : "440124",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.16",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "283930000",
+          "sale_date_alias" : "1997-11-05T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1998-0168",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "89015000",
+          "total_issuance_costs_alias" : "630445",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.71",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "89015000",
+          "sale_date_alias" : "1998-02-25T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "49110000",
+          "cdiac_number_alias" : "1998-0169",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "335990",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.68",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "49110000",
+          "sale_date_alias" : "1998-02-25T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "64115000",
+          "cdiac_number_alias" : "1998-1404",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "182495",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.28",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "64115000",
+          "sale_date_alias" : "1998-06-24T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "23660000",
+          "cdiac_number_alias" : "1998-1405",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "275000000",
+          "total_issuance_costs_alias" : "331896",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.11",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "298660000",
+          "sale_date_alias" : "1998-06-24T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "71280000",
+          "cdiac_number_alias" : "1999-0606",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "152737",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.21",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "71280000",
+          "sale_date_alias" : "1999-05-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "10390000",
+          "cdiac_number_alias" : "1999-1303",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "22263",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.21",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "10390000",
+          "sale_date_alias" : "1999-05-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "65145000",
+          "cdiac_number_alias" : "1999-1444",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "108100000",
+          "total_issuance_costs_alias" : "121641",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.07",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "173245000",
+          "sale_date_alias" : "1999-07-28T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "24020000",
+          "cdiac_number_alias" : "1999-1734",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "24020000",
+          "sale_date_alias" : "1999-07-28T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "102921207",
+          "cdiac_number_alias" : "2000-1380",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "256343793",
+          "total_issuance_costs_alias" : "425427",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.12",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "359265000",
+          "sale_date_alias" : "2000-09-12T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2000-1655",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "69000000",
+          "total_issuance_costs_alias" : "394707",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.57",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "69000000",
+          "sale_date_alias" : "2000-11-14T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "41563119",
+          "cdiac_number_alias" : "2001-1325",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "90361881",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "131925000",
+          "sale_date_alias" : "2001-07-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "44825000",
+          "cdiac_number_alias" : "2001-1869",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "112000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.25",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "44825000",
+          "sale_date_alias" : "2001-10-16T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "122800000",
+          "cdiac_number_alias" : "2001-1956",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "331380",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.27",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "122800000",
+          "sale_date_alias" : "2001-12-04T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "45455000",
+          "cdiac_number_alias" : "2002-0027",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "150000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.33",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "45455000",
+          "sale_date_alias" : "2002-01-08T00:00:00",
+          "source_of_repayment_alias" : "Other sources"
+        }
+        , {
+          "new_money_alias" : "346020000",
+          "cdiac_number_alias" : "2002-0551",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "335955",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.1",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "346020000",
+          "sale_date_alias" : "2002-06-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "19850000",
+          "cdiac_number_alias" : "2002-0552",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "31744",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.16",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "19850000",
+          "sale_date_alias" : "2002-06-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "47055000",
+          "cdiac_number_alias" : "2003-0161",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "300720000",
+          "total_issuance_costs_alias" : "329375",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.09",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "347775000",
+          "sale_date_alias" : "2003-03-04T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "59000500",
+          "cdiac_number_alias" : "2003-0456",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "305254500",
+          "total_issuance_costs_alias" : "375328",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "14486861",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.1",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Other, Multiple Educational Uses (Equipment, etc.)",
+          "principal_amount_alias" : "364255000",
+          "sale_date_alias" : "2003-05-06T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2003-1499",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "914270000",
+          "total_issuance_costs_alias" : "10119600",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "35815774",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.11",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "914270000",
+          "sale_date_alias" : "2003-08-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2003-1798",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "385835000",
+          "total_issuance_costs_alias" : "3996496",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "20097659",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.04",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "385835000",
+          "sale_date_alias" : "2003-10-07T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "158830337",
+          "cdiac_number_alias" : "2004-0397",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "97334663",
+          "total_issuance_costs_alias" : "6151582",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "12747948",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "2.4",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "256165000",
+          "sale_date_alias" : "2004-04-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "64590000",
+          "cdiac_number_alias" : "2004-1536",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "307000000",
+          "total_issuance_costs_alias" : "3862426",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "7652178",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.04",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "371590000",
+          "sale_date_alias" : "2004-09-22T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "252270000",
+          "cdiac_number_alias" : "2004-1930",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "5773108",
+          "issuer_county_alias" : "State of California",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "252270000",
+          "sale_date_alias" : "2005-01-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "31160000",
+          "cdiac_number_alias" : "2005-0122",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "2198",
+          "issuer_county_alias" : "State of California",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "31160000",
+          "sale_date_alias" : "2005-01-11T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2005-1060",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "558425000",
+          "total_issuance_costs_alias" : "4733666",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "33123741",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.85",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "558425000",
+          "sale_date_alias" : "2005-06-07T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "332280000",
+          "cdiac_number_alias" : "2005-1662",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "3752478",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "6555732",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.13",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "332280000",
+          "sale_date_alias" : "2005-10-06T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "20540000",
+          "cdiac_number_alias" : "2005-1663",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "160062",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.78",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "20540000",
+          "sale_date_alias" : "2005-10-06T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "600480000",
+          "cdiac_number_alias" : "2005-1709",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "7771272",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "12554426",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.29",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "600480000",
+          "sale_date_alias" : "2005-10-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "15970000",
+          "cdiac_number_alias" : "2005-1710",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "171909",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.08",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "15970000",
+          "sale_date_alias" : "2005-10-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "148175276",
+          "cdiac_number_alias" : "2006-1592",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "1217359724",
+          "total_issuance_costs_alias" : "11270049",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "48704728",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.83",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "1365535000",
+          "sale_date_alias" : "2006-12-20T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "441170000",
+          "cdiac_number_alias" : "2006-1554",
+          "debt_type_alias" : "Revenue bond (Pool)",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "6760089",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "4131179",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.53",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "441170000",
+          "sale_date_alias" : "2007-01-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "183284",
+          "cdiac_number_alias" : "2007-0244",
+          "debt_type_alias" : "Revenue bond (Pool)",
+          "refunding_amount_alias" : "47891716",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "48075000",
+          "sale_date_alias" : "2007-01-23T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "188284",
+          "cdiac_number_alias" : "2007-0245",
+          "debt_type_alias" : "Revenue bond (Pool)",
+          "refunding_amount_alias" : "47891716",
+          "total_issuance_costs_alias" : "371568",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.77",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "48080000",
+          "sale_date_alias" : "2007-01-23T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "2796862",
+          "cdiac_number_alias" : "2007-0931",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "194233138",
+          "total_issuance_costs_alias" : "2600058",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.32",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "197030000",
+          "sale_date_alias" : "2007-07-12T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "415355000",
+          "cdiac_number_alias" : "2007-1342",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "4664724",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "18017753",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.12",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "415355000",
+          "sale_date_alias" : "2007-10-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "244870000",
+          "cdiac_number_alias" : "2007-1726",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1502989",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "12734159",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.61",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "244870000",
+          "sale_date_alias" : "2008-01-09T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "3990000",
+          "cdiac_number_alias" : "2007-1727",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "31604",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.79",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "3990000",
+          "sale_date_alias" : "2008-01-09T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2008-0193",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "322980000",
+          "total_issuance_costs_alias" : "2555047",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "10646047",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.79",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "322980000",
+          "sale_date_alias" : "2008-04-02T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "1570000000",
+          "cdiac_number_alias" : "2008-1271",
+          "debt_type_alias" : "Commercial paper",
+          "refunding_amount_alias" : "430000000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Project, Interim Financing",
+          "principal_amount_alias" : "2000000000",
+          "sale_date_alias" : "2008-12-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "730168837",
+          "cdiac_number_alias" : "2009-0085",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "64051163",
+          "total_issuance_costs_alias" : "4924810.06",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "21916250.05",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.62",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "794220000",
+          "sale_date_alias" : "2009-03-12T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "1022275000",
+          "cdiac_number_alias" : "2009-0985",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "9168539.3",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.9",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "1022275000",
+          "sale_date_alias" : "2009-08-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "300620000",
+          "cdiac_number_alias" : "2009-0986",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1833411.48",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "20852514.15",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.61",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "300620000",
+          "sale_date_alias" : "2009-08-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "429150000",
+          "cdiac_number_alias" : "2009-1324",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "4012642.8",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.94",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "429150000",
+          "sale_date_alias" : "2009-12-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "94755000",
+          "cdiac_number_alias" : "2009-1325",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "680909.63",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "4128704.45",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.72",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "94755000",
+          "sale_date_alias" : "2009-12-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "10448323",
+          "cdiac_number_alias" : "2010-0217",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "64946677",
+          "total_issuance_costs_alias" : "638160.51",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "7068908",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.85",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "75395000",
+          "sale_date_alias" : "2010-03-31T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "7332001",
+          "cdiac_number_alias" : "2010-0218",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "2767999",
+          "total_issuance_costs_alias" : "101930.33",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.01",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "10100000",
+          "sale_date_alias" : "2010-03-31T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2010-0656",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "144025000",
+          "total_issuance_costs_alias" : "17239118.4",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "17239118.4",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "11.97",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "144025000",
+          "sale_date_alias" : "2010-06-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2010-1213",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "195675000",
+          "total_issuance_costs_alias" : "987033.44",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "22862093.65",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "195675000",
+          "sale_date_alias" : "2010-09-16T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "486130000",
+          "cdiac_number_alias" : "2010-1214",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "3211356.48",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.66",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "486130000",
+          "sale_date_alias" : "2010-09-21T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "6693003",
+          "cdiac_number_alias" : "2010-1359",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "41446997",
+          "total_issuance_costs_alias" : "261372.61",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "5264094.7",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.54",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "48140000",
+          "sale_date_alias" : "2010-11-09T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "700000000",
+          "cdiac_number_alias" : "2010-1360",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "4742278.92",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.68",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "700000000",
+          "sale_date_alias" : "2010-11-09T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "9175000",
+          "cdiac_number_alias" : "2010-1519",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "57452.56",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.63",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "9175000",
+          "sale_date_alias" : "2010-11-09T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "200000000",
+          "cdiac_number_alias" : "2010-1553",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1156165.1",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.58",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "200000000",
+          "sale_date_alias" : "2010-12-07T00:00:00",
+          "source_of_repayment_alias" : "Other sources"
+        }
+        , {
+          "new_money_alias" : "3725000",
+          "cdiac_number_alias" : "2010-1554",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "36308.75",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.97",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "3725000",
+          "sale_date_alias" : "2011-01-26T00:00:00",
+          "source_of_repayment_alias" : "Other sources"
+        }
+        , {
+          "new_money_alias" : "500000000",
+          "cdiac_number_alias" : "2011-0972",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "856508.96",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.17",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "500000000",
+          "sale_date_alias" : "2011-07-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "550000000",
+          "cdiac_number_alias" : "2011-0974",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "840487.92",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.15",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "550000000",
+          "sale_date_alias" : "2011-07-19T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "150000000",
+          "cdiac_number_alias" : "2011-0973",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "188107.14",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.13",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "150000000",
+          "sale_date_alias" : "2011-07-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "44840000",
+          "cdiac_number_alias" : "2011-1095",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "290091.55",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.65",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "44840000",
+          "sale_date_alias" : "2011-08-18T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "113131038.02",
+          "cdiac_number_alias" : "2011-1097",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "241743961.98",
+          "total_issuance_costs_alias" : "2194203.07",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "48041322.7",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.62",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "354875000",
+          "sale_date_alias" : "2011-08-18T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "860000000",
+          "cdiac_number_alias" : "2012-0250",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "8011150",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.93",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "860000000",
+          "sale_date_alias" : "2012-02-21T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "10049644.52",
+          "cdiac_number_alias" : "2012-1271",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "90370355.48",
+          "total_issuance_costs_alias" : "602626.85",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.6",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "100420000",
+          "sale_date_alias" : "2012-07-25T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "83571057.23",
+          "cdiac_number_alias" : "2012-1270",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "815703942.77",
+          "total_issuance_costs_alias" : "5112450.17",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "152748117.9",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.57",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "899275000",
+          "sale_date_alias" : "2012-07-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "2385000",
+          "cdiac_number_alias" : "2012-1684",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "39707.75",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "1.66",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "2385000",
+          "sale_date_alias" : "2012-10-12T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-0546",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "501170000",
+          "total_issuance_costs_alias" : "2305577.18",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.46",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "501170000",
+          "sale_date_alias" : "2013-02-27T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-0545",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "805905000",
+          "total_issuance_costs_alias" : "3688955.34",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "136960907.25",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.46",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "805905000",
+          "sale_date_alias" : "2013-02-28T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-0547",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "286515000",
+          "total_issuance_costs_alias" : "686382.65",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.24",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "286515000",
+          "sale_date_alias" : "2013-03-05T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "589869386.81",
+          "cdiac_number_alias" : "2013-1561",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "28760613.19",
+          "total_issuance_costs_alias" : "3903983.34",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "6347715.6",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.63",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "618630000",
+          "sale_date_alias" : "2013-08-07T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "31300000",
+          "cdiac_number_alias" : "2013-1562",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "70593.15",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.23",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "31300000",
+          "sale_date_alias" : "2013-08-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1793",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "546235000",
+          "total_issuance_costs_alias" : "2827178.7",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "31573916",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.52",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "546235000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1794",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "712315000",
+          "total_issuance_costs_alias" : "3199356.08",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.45",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "712315000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1795",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "600000000",
+          "total_issuance_costs_alias" : "2655453.19",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "93296737",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.44",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "600000000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1796",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "150000000",
+          "total_issuance_costs_alias" : "206214.24",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.14",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "150000000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1941",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "150000000",
+          "total_issuance_costs_alias" : "206214.24",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.14",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "150000000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1942",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "150000000",
+          "total_issuance_costs_alias" : "206214.24",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.14",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "150000000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1943",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "150000000",
+          "total_issuance_costs_alias" : "206214.24",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.14",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "150000000",
+          "sale_date_alias" : "2013-09-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "559150000",
+          "cdiac_number_alias" : "2014-0522",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "2576107.99",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "54789438.65",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.46",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "559150000",
+          "sale_date_alias" : "2014-04-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "411210000",
+          "cdiac_number_alias" : "2014-0523",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1735044.55",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.42",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "411210000",
+          "sale_date_alias" : "2014-04-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2015-0422",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "797020000",
+          "total_issuance_costs_alias" : "3173406.98",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "116148608.55",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.4",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "797020000",
+          "sale_date_alias" : "2015-03-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "53797118.77",
+          "cdiac_number_alias" : "2015-0424",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "327987881.23",
+          "total_issuance_costs_alias" : "1922005.37",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Facility",
+          "principal_amount_alias" : "381785000",
+          "sale_date_alias" : "2015-03-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "127876207.06",
+          "cdiac_number_alias" : "2015-0425",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "1107153792.94",
+          "total_issuance_costs_alias" : "5104806.42",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "188858231",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.41",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "1235030000",
+          "sale_date_alias" : "2015-03-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "81832115.34",
+          "cdiac_number_alias" : "2015-0426",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "354622884.66",
+          "total_issuance_costs_alias" : "2381260.93",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.55",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "436455000",
+          "sale_date_alias" : "2015-03-13T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "500000000",
+          "cdiac_number_alias" : "2015-0585",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "4872761.67",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "State of California",
+          "issue_cost_percent_of_principal_alias" : "0.97",
+          "issuer_type_alias" : "State Programs & Department",
+          "issuer_group_alias" : "UC & CSU",
+          "issuer_alias" : "The Regents of the University of California",
+          "purpose_alias" : "College, University Housing",
+          "principal_amount_alias" : "500000000",
+          "sale_date_alias" : "2015-04-01T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+         ]
+    http_version: 
+  recorded_at: Thu, 03 Dec 2015 23:33:34 GMT
+recorded_with: VCR 2.9.3

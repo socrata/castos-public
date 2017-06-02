@@ -1,0 +1,65 @@
+@media print {
+  header, nav, #footerLinks, .carousel, .carousel-intro-container{
+    display: none !important;
+  }
+
+  .well {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: auto !important;
+  }
+
+  @page {
+    margin: 0.5cm !important;
+  }
+
+  .clearfix:before, .clearfix:after{
+    display: block!important;
+  }
+
+  #chart-display, .charts, .col-xs-12.col-sm-8.col-sm-offset-1.chart-big-box, .row, .container, #yield, .siteContentWrapper, body {
+    float: none !important;
+    display: block !important;
+  }
+
+  #chart1 {
+    page-break-before: always !important;
+    margin-top: 100px !important;
+    height: 500px !important;
+  }
+
+  #chart2 {
+    page-break-before: always !important;
+    margin-top: 200px !important;
+    height: 500px !important;
+  }
+
+  #chart3 {
+    page-break-before: always !important;
+    margin-top: 100px !important;
+    height: 500px !important;
+  }
+
+  .chart-big-box {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  #donut-chart {
+    page-break-after: always !important;
+  }
+
+  #table-display.printable {
+    margin: 1rem auto;
+    width: 100%;
+    table {
+      margin: 2rem 0;
+    }
+  }
+
+  .hide-on-print {
+    display: none;
+  }
+}

@@ -1,0 +1,1887 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 24 Nov 2015 23:25:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Fri, 06 Nov 2015 00:13:57 UTC
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmt Fee",
+          "issuer_dataset_match" : "UW Mngmt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "MKR Authority",
+          "issuer_dataset_match" : "MKR Authority"
+        }
+        , {
+          "permanent_castos" : "Local Obligation",
+          "issuer_dataset_match" : "Local Obligation"
+        }
+        , {
+          "permanent_castos" : "MKR CDIAC Number",
+          "issuer_dataset_match" : "MKR CDIAC Number"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 24 Nov 2015 23:25:01 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/yng6-vaxy.json?$limit=50000&$select=cdiac_number%20as%20cdiac_number_alias,%20issuer%20as%20issuer_alias,%20issuer_county%20as%20issuer_county_alias,%20sold_status%20as%20sold_status_alias,%20federally_taxable%20as%20federally_taxable_alias,%20sale_date%20as%20sale_date_alias,%20private_placement_flag%20as%20private_placement_flag_alias,%20debt_type%20as%20debt_type_alias,%20principal_amount%20as%20principal_amount_alias,%20source_of_repayment%20as%20source_of_repayment_alias,%20purpose%20as%20purpose_alias,%20refunding_amount%20as%20refunding_amount_alias,%20tic_interest_rate%20as%20tic_interest_rate_alias,%20nic_interest_rate%20as%20nic_interest_rate_alias,%20interest_type%20as%20interest_type_alias,%20other_interest_type%20as%20other_interest_type_alias,%20project_name%20as%20project_name_alias,%20cab_flag%20as%20cab_flag_alias,%20final_maturity_date%20as%20final_maturity_date_alias,%20s_and_p_rating%20as%20s_and_p_rating_alias,%20moody_rating%20as%20moody_rating_alias,%20fitch_rating%20as%20fitch_rating_alias,%20other_rating%20as%20other_rating_alias,%20financial_advisor%20as%20financial_advisor_alias,%20guarantor_flag%20as%20guarantor_flag_alias,%20guarantor%20as%20guarantor_alias,%20underwriter%20as%20underwriter_alias,%20bond_counsel%20as%20bond_counsel_alias,%20co_bond_counsel%20as%20co_bond_counsel_alias,%20purchaser%20as%20purchaser_alias,%20borrower_counsel%20as%20borrower_counsel_alias,%20disclosure_counsel%20as%20disclosure_counsel_alias,%20trustee%20as%20trustee_alias,%20issuer_group%20as%20issuer_group_alias,%20uw_expenses%20as%20uw_expenses_alias,%20bond_counsel_fee%20as%20bond_counsel_fee_alias,%20disclosure_counsel_fee%20as%20disclosure_counsel_fee_alias,%20financial_advisor_fee%20as%20financial_advisor_fee_alias,%20rating_agency_fee%20as%20rating_agency_fee_alias,%20credit_enhancement_fee%20as%20credit_enhancement_fee_alias,%20trustee_fee%20as%20trustee_fee_alias,%20other_issuance_expenses%20as%20other_issuance_expenses_alias,%20total_issuance_costs%20as%20total_issuance_costs_alias,%20new_money%20as%20new_money_alias,%20issuer_type%20as%20issuer_type_alias,%20net_issue_discount%20as%20net_issue_discount_alias,%20first_optional_call_date%20as%20first_optional_call_date_alias,%20sale_type_comp_neg%20as%20sale_type_comp_neg_alias,%20placement_agent%20as%20placement_agent_alias,%20issue_costs_pct_of_principal_amt%20as%20issue_cost_percent_of_principal_alias,%20uw_takedown%20as%20uw_takedown_alias,%20uw_mngmt_fee%20as%20uw_mngmt_fee_alias,%20uw_total_discount_spread%20as%20uw_total_discount_spread_alias,%20placement_agent_fee%20as%20placement_agent_fee_alias,%20co_bond_counsel_fee%20as%20co_bond_counsel_fee_alias,%20borrower_counsel_fee%20as%20borrower_counsel_fee_alias,%20mkr_authority%20as%20mkr_authority_alias,%20local_obligation%20as%20local_obligation_alias,%20mkr_cdiac_number%20as%20mkr_cdiac_number_alias&$where=(issuer_group%20=%20'Cities'%20AND%20issuer_type%20=%20'City%20Government')%20AND%20(issuer%20=%20'El%20Cerrito'%20OR%20issuer%20=%20'Compton')
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 24 Nov 2015 23:25:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Mon, 23 Nov 2015 10:11:22 PST
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["cdiac_number_alias","debt_type_alias","nic_interest_rate_alias","interest_type_alias","other_issuance_expenses_alias","project_name_alias","rating_agency_fee_alias","sale_type_comp_neg_alias","issuer_county_alias","issuer_group_alias","issuer_type_alias","sale_date_alias","cab_flag_alias","first_optional_call_date_alias","s_and_p_rating_alias","co_bond_counsel_alias","disclosure_counsel_fee_alias","bond_counsel_fee_alias","other_rating_alias","trustee_alias","placement_agent_fee_alias","placement_agent_alias","borrower_counsel_alias","uw_expenses_alias","local_obligation_alias","moody_rating_alias",":created_at","bond_counsel_alias","co_bond_counsel_fee_alias","purchaser_alias","credit_enhancement_fee_alias","total_issuance_costs_alias","sold_status_alias","net_issue_discount_alias","guarantor_alias","mkr_authority_alias","purpose_alias","other_interest_type_alias","trustee_fee_alias","principal_amount_alias","financial_advisor_fee_alias","source_of_repayment_alias","refunding_amount_alias","disclosure_counsel_alias","new_money_alias","borrower_counsel_fee_alias",":updated_at","uw_mngmt_fee_alias","fitch_rating_alias","underwriter_alias","mkr_cdiac_number_alias","issue_cost_percent_of_principal_alias","issuer_alias","uw_total_discount_spread_alias","uw_takedown_alias","federally_taxable_alias","tic_interest_rate_alias",":id","final_maturity_date_alias","guarantor_flag_alias","private_placement_flag_alias","financial_advisor_alias"]'
+      X-Soda2-Types:
+      - '["text","text","number","text","text","text","text","text","text","text","text","calendar_date","text","text","text","number","text","text","text","text","text","number","number","text","text","text","meta_data","text","text","number","text","number","text","text","text","text","text","text","text","number","text","text","number","number","number","text","meta_data","text","text","text","text","number","text","number","text","text","number","meta_data","calendar_date","text","text","text"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "cdiac_number_alias" : "1985-1044",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "6.465",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1985-10-30T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1300000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1300000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Kelling & Co",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "8000",
+          "final_maturity_date_alias" : "1986-10-29T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1986-0180",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1986-03-21T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Burke Robinson",
+          "total_issuance_costs_alias" : "84509",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "9810000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "9810000",
+          "new_money_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Chilton & O'Connor",
+          "issue_cost_percent_of_principal_alias" : "0.86",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "2015-09-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1986-0226",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "project_name_alias" : "Compton Civic Center",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1986-06-05T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Best Best & Krieger LLP",
+          "total_issuance_costs_alias" : "161000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Public Building",
+          "principal_amount_alias" : "11025000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "5819583",
+          "new_money_alias" : "5205417",
+          "fitch_rating_alias" : "F:BBB+",
+          "underwriter_alias" : "Chilton & O'Connor",
+          "issue_cost_percent_of_principal_alias" : "1.46",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "533830",
+          "final_maturity_date_alias" : "2013-07-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1986-0579",
+          "debt_type_alias" : "Conduit revenue bond",
+          "interest_type_alias" : "TIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1986-08-14T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "James Warren Beebe A Law Corporation",
+          "total_issuance_costs_alias" : "45000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Single-Family Housing",
+          "principal_amount_alias" : "8920000",
+          "source_of_repayment_alias" : "Private obligor payments",
+          "refunding_amount_alias" : "8920000",
+          "new_money_alias" : "0",
+          "fitch_rating_alias" : "F:AA",
+          "underwriter_alias" : "Chilton & O'Connor",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "133800",
+          "tic_interest_rate_alias" : "8.496",
+          "final_maturity_date_alias" : "2017-04-01T00:00:00",
+          "guarantor_flag_alias" : "Oth",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1986-0947",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "4.942",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1986-11-18T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Brown & Wood",
+          "total_issuance_costs_alias" : "4000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1200000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1200000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Kelling Northcross & Nobriga Inc",
+          "issue_cost_percent_of_principal_alias" : "0.33",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "1987-11-23T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1987-0911",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "6.53",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1987-11-23T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Brown & Wood",
+          "total_issuance_costs_alias" : "1830",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1370000",
+          "source_of_repayment_alias" : "Tax increment",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1370000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Kelling Northcross & Nobriga Inc",
+          "issue_cost_percent_of_principal_alias" : "0.13",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "132287.02",
+          "final_maturity_date_alias" : "1988-11-22T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1988-0933",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "6.482",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1988-11-10T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Brown & Wood",
+          "total_issuance_costs_alias" : "10300",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1400000",
+          "source_of_repayment_alias" : "Tax increment",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1400000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Bank of California",
+          "issue_cost_percent_of_principal_alias" : "0.74",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "3948",
+          "final_maturity_date_alias" : "1989-11-16T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1989-1120",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "6",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1989-11-20T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "5850",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1800000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1800000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Bank of California",
+          "issue_cost_percent_of_principal_alias" : "0.33",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "1990-11-29T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1989-0873",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "interest_type_alias" : "TIC",
+          "project_name_alias" : "Civic Ctr",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1989-12-28T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "S:AA-",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Grant & Duncan",
+          "total_issuance_costs_alias" : "1736860.85",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Public Building",
+          "principal_amount_alias" : "12830000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "11025000",
+          "new_money_alias" : "1805000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Grigsby Brandford & Company Inc",
+          "issue_cost_percent_of_principal_alias" : "13.54",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "270170",
+          "tic_interest_rate_alias" : "7.54",
+          "guarantor_flag_alias" : "LOC",
+          "financial_advisor_alias" : "Clayton Brown",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1990-0021",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "interest_type_alias" : "TIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1989-12-28T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "S:AA-",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Grant & Duncan",
+          "total_issuance_costs_alias" : "1472710.11",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "11100000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "9810000",
+          "new_money_alias" : "1290000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Grigsby Brandford & Company Inc",
+          "issue_cost_percent_of_principal_alias" : "13.27",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "233982.03",
+          "tic_interest_rate_alias" : "7.54",
+          "guarantor_flag_alias" : "LOC",
+          "financial_advisor_alias" : "Clayton Brown",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1990-0570",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "5.97",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1990-07-19T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1800000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1800000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Bank of America NT & SA",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "1991-07-29T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1991-0556",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "4.953",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Comp",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1991-06-25T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:V/MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1400000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1400000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Lehman Brothers",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "1988",
+          "final_maturity_date_alias" : "1992-07-08T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1992-0655",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.407",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1992-06-15T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "2000000",
+          "source_of_repayment_alias" : "Property tax revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "2000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Bank of America NT & SA",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "9640",
+          "final_maturity_date_alias" : "1993-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1993-0785",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "2.776",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1993-06-03T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1700000",
+          "source_of_repayment_alias" : "Property tax revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1700000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "A H Williams & Company",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "3795",
+          "final_maturity_date_alias" : "1994-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1993-0964",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "nic_interest_rate_alias" : "5.296",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Comp",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1993-07-21T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "S:A",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:A",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "750",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Flood Control, Storm Drainage",
+          "principal_amount_alias" : "6300000",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "6300000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Clayton Brown",
+          "issue_cost_percent_of_principal_alias" : "0.01",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Alex Brown & Sons Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1993-0125",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "interest_type_alias" : "TIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1993-07-29T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:Baa",
+          "bond_counsel_alias" : "Robinson & Pearman",
+          "total_issuance_costs_alias" : "288574",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "7715000",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "7715000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "First California Capital Markets Group",
+          "issue_cost_percent_of_principal_alias" : "3.74",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "116425",
+          "tic_interest_rate_alias" : "6.659",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Alexis Jackson",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1994-0624",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.849",
+          "interest_type_alias" : "NIC",
+          "project_name_alias" : "Jt City Pool",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1994-06-02T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "2000000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "2000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "A H Williams & Company",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "2568",
+          "final_maturity_date_alias" : "1995-07-05T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1995-0354",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "4.136",
+          "interest_type_alias" : "NIC",
+          "project_name_alias" : "Joint City Pool",
+          "sale_type_comp_neg_alias" : "Comp",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1995-06-12T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:MIG1",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "17173",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "1200000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1200000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Bank of America NT & SA",
+          "issue_cost_percent_of_principal_alias" : "1.43",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "1392",
+          "final_maturity_date_alias" : "1996-07-05T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "KNN/Kelling Northcross & Nobriga Inc",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1996-0251",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "nic_interest_rate_alias" : "5.751",
+          "interest_type_alias" : "NIC",
+          "project_name_alias" : "Fire Station",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1996-04-04T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall Hill & White",
+          "total_issuance_costs_alias" : "49700",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Public Building",
+          "principal_amount_alias" : "1485000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1485000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Westamerica Bank",
+          "issue_cost_percent_of_principal_alias" : "3.35",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "2009-03-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1996-1129",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.935",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1996-06-20T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "S:SP-1+",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Brown & Wood",
+          "total_issuance_costs_alias" : "10000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "2000000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "2000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Everen Securities",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "1997-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Cuenco & Company",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1997-1055",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.865",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1997-06-19T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "S:SP-1+",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall A Professional Law Corp",
+          "total_issuance_costs_alias" : "15000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "2000000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "2000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "BancAmerica Securities Inc",
+          "issue_cost_percent_of_principal_alias" : "0.75",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "1998-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Cuenco & Company",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1997-0827",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "nic_interest_rate_alias" : "5.627",
+          "interest_type_alias" : "NIC",
+          "project_name_alias" : "Civic Ctr",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1997-10-07T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "S:BBB",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "First Trust of Washington",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Hawkins Delafield & Wood LLP",
+          "total_issuance_costs_alias" : "273128",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "26585000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "20836611",
+          "new_money_alias" : "5748389",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Siebert Brandford Shank Inc",
+          "issue_cost_percent_of_principal_alias" : "1.03",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "530823",
+          "final_maturity_date_alias" : "2015-09-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1998-1190",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.766",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Comp",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1998-06-23T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall A Professional Law Corp",
+          "total_issuance_costs_alias" : "9130",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "2000000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "2000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Commerce Capital Markets",
+          "issue_cost_percent_of_principal_alias" : "0.46",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "1999-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "P G Corbin",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1998-1187",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "nic_interest_rate_alias" : "5.444",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1998-06-30T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank Corporate Trust Services",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:Baa2",
+          "bond_counsel_alias" : "Robinson & Pearman",
+          "total_issuance_costs_alias" : "80890",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "8310000",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "8310000",
+          "new_money_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "The Chapman Co",
+          "issue_cost_percent_of_principal_alias" : "0.97",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "108030",
+          "final_maturity_date_alias" : "2023-09-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "1999-0671",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.4",
+          "interest_type_alias" : "NIC",
+          "sale_type_comp_neg_alias" : "Comp",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "1999-06-02T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall A Professional Law Corp",
+          "total_issuance_costs_alias" : "10080",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "2000000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "2000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Commerce Capital Markets",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "final_maturity_date_alias" : "2000-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "P G Corbin",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "2000-1191",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "interest_type_alias" : "VAR",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2000-06-29T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank Corporate Trust Services",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "M:Aaa/VMIG1",
+          "bond_counsel_alias" : "Richards Watson & Gershon",
+          "total_issuance_costs_alias" : "180557",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : "Union Bank of California",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Solid Waste Recovery Facilities",
+          "principal_amount_alias" : "6000000",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "6000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "The Chapman Co",
+          "issue_cost_percent_of_principal_alias" : "3.01",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "90000",
+          "final_maturity_date_alias" : "2020-08-01T00:00:00",
+          "guarantor_flag_alias" : "LOC",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "2008-1327",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "interest_type_alias" : "TIC",
+          "other_issuance_expenses_alias" : "22500",
+          "project_name_alias" : "Master Plan",
+          "rating_agency_fee_alias" : "18000",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2009-05-20T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "first_optional_call_date_alias" : "8/1/2019 00:00:00",
+          "s_and_p_rating_alias" : "S:A",
+          "disclosure_counsel_fee_alias" : "53750",
+          "bond_counsel_fee_alias" : "63750",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Orrick Herrington & Sutcliffe",
+          "total_issuance_costs_alias" : "685400",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "trustee_fee_alias" : "7500",
+          "principal_amount_alias" : "44040000",
+          "financial_advisor_fee_alias" : "79500",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "44040000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Grigsby & Associates",
+          "issue_cost_percent_of_principal_alias" : "1.56",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "440400",
+          "tic_interest_rate_alias" : "6.075",
+          "final_maturity_date_alias" : "2039-08-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Fieldman Rolapp & Associates",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "2008-1328",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "interest_type_alias" : "TIC",
+          "other_issuance_expenses_alias" : "20800",
+          "project_name_alias" : "Master Plan",
+          "rating_agency_fee_alias" : "7000",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2009-05-20T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "first_optional_call_date_alias" : "9/1/2019 00:00:00",
+          "s_and_p_rating_alias" : "S:A",
+          "disclosure_counsel_fee_alias" : "48500",
+          "bond_counsel_fee_alias" : "58500",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Orrick Herrington & Sutcliffe",
+          "total_issuance_costs_alias" : "377100",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "trustee_fee_alias" : "7500",
+          "principal_amount_alias" : "18710000",
+          "financial_advisor_fee_alias" : "47700",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "18710000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Grigsby & Associates",
+          "issue_cost_percent_of_principal_alias" : "2.02",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "187100",
+          "tic_interest_rate_alias" : "6.071",
+          "final_maturity_date_alias" : "2039-09-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Fieldman Rolapp & Associates",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "2010-1568",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "interest_type_alias" : "TIC",
+          "other_issuance_expenses_alias" : "1000",
+          "project_name_alias" : "Recycling Facility",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2010-11-01T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "first_optional_call_date_alias" : "10/1/2021 00:00:00",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "10000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "Deutsche Bank National Trust Company",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Kronick Moskovitz Tiedemann & Girard",
+          "total_issuance_costs_alias" : "34525",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Other Capital Improvements, Public Works",
+          "principal_amount_alias" : "3500000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "3500000",
+          "new_money_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "Capital One Public Funding LLC",
+          "issue_cost_percent_of_principal_alias" : "0.99",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "23525",
+          "tic_interest_rate_alias" : "3.88",
+          "final_maturity_date_alias" : "2025-10-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "N/A"
+        }
+        , {
+          "cdiac_number_alias" : "2011-1217",
+          "debt_type_alias" : "Tax anticipation note",
+          "nic_interest_rate_alias" : "0.075",
+          "interest_type_alias" : "NIC",
+          "other_issuance_expenses_alias" : "526.5",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2011-09-19T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "2000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Meyers Nave",
+          "total_issuance_costs_alias" : "10026.5",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "3510000",
+          "financial_advisor_fee_alias" : "7500",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "3510000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "0.29",
+          "issuer_alias" : "El Cerrito",
+          "final_maturity_date_alias" : "2011-12-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Brandis Tallman LLC",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2012-1010",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "nic_interest_rate_alias" : "1.683",
+          "other_issuance_expenses_alias" : "10212.5",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2012-06-22T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "2250",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Meyers Nave Riback Silver & Wilson",
+          "total_issuance_costs_alias" : "14712.5",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Flood Control, Storm Drainage",
+          "principal_amount_alias" : "1026800",
+          "financial_advisor_fee_alias" : "2250",
+          "source_of_repayment_alias" : "Public enterprise revenues",
+          "refunding_amount_alias" : "1026800",
+          "new_money_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "1.43",
+          "issuer_alias" : "El Cerrito",
+          "final_maturity_date_alias" : "2013-08-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Cooperman & Associates",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2012-1872",
+          "debt_type_alias" : "Tax anticipation note",
+          "nic_interest_rate_alias" : "0.751",
+          "other_issuance_expenses_alias" : "600",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2012-10-10T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "2000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "placement_agent_fee_alias" : "7500",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Meyers Nave Riback Silver & Wilson",
+          "total_issuance_costs_alias" : "10100",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "4000000",
+          "source_of_repayment_alias" : "Property tax revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "4000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "0.25",
+          "issuer_alias" : "El Cerrito",
+          "final_maturity_date_alias" : "2012-12-21T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2012-1939",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "nic_interest_rate_alias" : "2.75",
+          "other_issuance_expenses_alias" : "0",
+          "project_name_alias" : "Solar energy",
+          "rating_agency_fee_alias" : "0",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2012-12-05T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "first_optional_call_date_alias" : "6/1/2013 00:00:00",
+          "s_and_p_rating_alias" : "Not Rated",
+          "disclosure_counsel_fee_alias" : "0",
+          "bond_counsel_fee_alias" : "0",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "Deutsche Bank National Trust Company",
+          "placement_agent_fee_alias" : "0",
+          "uw_expenses_alias" : "0",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Gilmore & Bell",
+          "co_bond_counsel_fee_alias" : "0",
+          "credit_enhancement_fee_alias" : "0",
+          "total_issuance_costs_alias" : "4000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "net_issue_discount_alias" : "0",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Equipment",
+          "trustee_fee_alias" : "1000",
+          "principal_amount_alias" : "1595300",
+          "financial_advisor_fee_alias" : "3000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "1595300",
+          "uw_mngmt_fee_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "0.25",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "0",
+          "uw_takedown_alias" : "0",
+          "tic_interest_rate_alias" : "2.75",
+          "final_maturity_date_alias" : "2027-12-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Brandis Tallman LLC",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2013-0580",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "0",
+          "interest_type_alias" : "VAR",
+          "other_issuance_expenses_alias" : "19500",
+          "project_name_alias" : "Series A",
+          "rating_agency_fee_alias" : "0",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2013-02-19T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "disclosure_counsel_fee_alias" : "0",
+          "bond_counsel_fee_alias" : "80000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "placement_agent_fee_alias" : "2500",
+          "uw_expenses_alias" : "0",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Peck Shaffer Williams",
+          "co_bond_counsel_fee_alias" : "10000",
+          "credit_enhancement_fee_alias" : "0",
+          "total_issuance_costs_alias" : "218000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "net_issue_discount_alias" : "0",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "trustee_fee_alias" : "1500",
+          "principal_amount_alias" : "5000000",
+          "financial_advisor_fee_alias" : "27000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "5000000",
+          "uw_mngmt_fee_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "IFS Securities Inc",
+          "issue_cost_percent_of_principal_alias" : "4.36",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "77500",
+          "uw_takedown_alias" : "0",
+          "tic_interest_rate_alias" : "0",
+          "final_maturity_date_alias" : "2013-06-28T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Comer Capital Group LLC",
+          "private_placement_flag_alias" : "NO"
+        }
+        , {
+          "cdiac_number_alias" : "2013-1652",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "4.044",
+          "other_issuance_expenses_alias" : "22000",
+          "project_name_alias" : "Series A",
+          "rating_agency_fee_alias" : "0",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2013-07-23T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "disclosure_counsel_fee_alias" : "0",
+          "bond_counsel_fee_alias" : "42500",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "placement_agent_fee_alias" : "0",
+          "uw_expenses_alias" : "0",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Peck Shaffer Williams",
+          "co_bond_counsel_fee_alias" : "8000",
+          "credit_enhancement_fee_alias" : "0",
+          "total_issuance_costs_alias" : "173500",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "net_issue_discount_alias" : "10501000",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "trustee_fee_alias" : "1500",
+          "principal_amount_alias" : "10600000",
+          "financial_advisor_fee_alias" : "27000",
+          "source_of_repayment_alias" : "Property tax revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "10600000",
+          "uw_mngmt_fee_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "IFS Securities Inc",
+          "issue_cost_percent_of_principal_alias" : "1.64",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "72500",
+          "uw_takedown_alias" : "0",
+          "tic_interest_rate_alias" : "4.025",
+          "final_maturity_date_alias" : "2014-06-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Comer Capital Group LLC",
+          "private_placement_flag_alias" : "NO"
+        }
+        , {
+          "cdiac_number_alias" : "2013-1803",
+          "debt_type_alias" : "Tax anticipation note",
+          "other_issuance_expenses_alias" : "5500",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2013-09-16T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "4000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "El Cerrito",
+          "placement_agent_fee_alias" : "7500",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Meyers Nave Riback Silver & Wilson",
+          "total_issuance_costs_alias" : "17000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "5017000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "5017000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "0.34",
+          "issuer_alias" : "El Cerrito",
+          "tic_interest_rate_alias" : "1.5",
+          "final_maturity_date_alias" : "2014-05-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : " ",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2014-1204",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "0",
+          "other_issuance_expenses_alias" : "32000",
+          "rating_agency_fee_alias" : "0",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2014-07-29T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "disclosure_counsel_fee_alias" : "0",
+          "bond_counsel_fee_alias" : "37500",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "placement_agent_fee_alias" : "0",
+          "uw_expenses_alias" : "0",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Gonzalez Saggio & Harlan LLP",
+          "co_bond_counsel_fee_alias" : "0",
+          "credit_enhancement_fee_alias" : "0",
+          "total_issuance_costs_alias" : "210000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "net_issue_discount_alias" : "0",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "trustee_fee_alias" : "1500",
+          "principal_amount_alias" : "12210000",
+          "financial_advisor_fee_alias" : "39000",
+          "source_of_repayment_alias" : "Property tax revenues",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "12210000",
+          "borrower_counsel_fee_alias" : "0",
+          "uw_mngmt_fee_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "IFS Securities Inc",
+          "issue_cost_percent_of_principal_alias" : "1.72",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "100000",
+          "uw_takedown_alias" : "0",
+          "tic_interest_rate_alias" : "2.737",
+          "final_maturity_date_alias" : "2015-06-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Comer Capital Group LLC",
+          "private_placement_flag_alias" : "NO"
+        }
+        , {
+          "cdiac_number_alias" : "2014-1477",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "1.5",
+          "other_issuance_expenses_alias" : "500",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2014-09-26T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "10000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "uw_expenses_alias" : "3500",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall A Professional Law Corp",
+          "total_issuance_costs_alias" : "29000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "5000000",
+          "financial_advisor_fee_alias" : "15000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "5000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "0.58",
+          "issuer_alias" : "El Cerrito",
+          "uw_total_discount_spread_alias" : "3500",
+          "final_maturity_date_alias" : "2015-06-30T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "NHA Advisors",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2015-1255",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "1.5",
+          "other_issuance_expenses_alias" : "5750",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Contra Costa",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2015-07-29T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "bond_counsel_fee_alias" : "10000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : " ",
+          "placement_agent_fee_alias" : "1250",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Jones Hall A Professional Law Corp",
+          "total_issuance_costs_alias" : "37000",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "5000000",
+          "financial_advisor_fee_alias" : "20000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "5000000",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : " ",
+          "issue_cost_percent_of_principal_alias" : "0.74",
+          "issuer_alias" : "El Cerrito",
+          "tic_interest_rate_alias" : "1.495",
+          "final_maturity_date_alias" : "2016-07-14T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "NHA Advisors",
+          "private_placement_flag_alias" : "YES"
+        }
+        , {
+          "cdiac_number_alias" : "2015-1525",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "nic_interest_rate_alias" : "3.378",
+          "other_issuance_expenses_alias" : "61000",
+          "rating_agency_fee_alias" : "0",
+          "sale_type_comp_neg_alias" : "Neg",
+          "issuer_county_alias" : "Los Angeles",
+          "issuer_group_alias" : "Cities",
+          "issuer_type_alias" : "City Government",
+          "sale_date_alias" : "2015-08-20T00:00:00",
+          "cab_flag_alias" : "N/A",
+          "s_and_p_rating_alias" : "Not Rated",
+          "disclosure_counsel_fee_alias" : "0",
+          "bond_counsel_fee_alias" : "60000",
+          "other_rating_alias" : "Not Rated",
+          "trustee_alias" : "US Bank National Association",
+          "placement_agent_fee_alias" : "0",
+          "uw_expenses_alias" : "15000",
+          "local_obligation_alias" : "NO",
+          "moody_rating_alias" : "Not Rated",
+          "bond_counsel_alias" : "Gonzalez Saggio & Harlan LLP",
+          "co_bond_counsel_fee_alias" : "0",
+          "credit_enhancement_fee_alias" : "0",
+          "total_issuance_costs_alias" : "287500",
+          "sold_status_alias" : "SOLD",
+          "guarantor_alias" : " ",
+          "net_issue_discount_alias" : "0",
+          "mkr_authority_alias" : "NO",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "trustee_fee_alias" : "1500",
+          "principal_amount_alias" : "10000000",
+          "financial_advisor_fee_alias" : "60000",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction",
+          "refunding_amount_alias" : "0",
+          "new_money_alias" : "10000000",
+          "borrower_counsel_fee_alias" : "0",
+          "uw_mngmt_fee_alias" : "0",
+          "fitch_rating_alias" : "Not Rated",
+          "underwriter_alias" : "IFS Securities Inc",
+          "issue_cost_percent_of_principal_alias" : "2.88",
+          "issuer_alias" : "Compton",
+          "uw_total_discount_spread_alias" : "105000",
+          "uw_takedown_alias" : "90000",
+          "tic_interest_rate_alias" : "3.394",
+          "final_maturity_date_alias" : "2016-06-01T00:00:00",
+          "guarantor_flag_alias" : " ",
+          "financial_advisor_alias" : "Comer Capital Group LLC",
+          "private_placement_flag_alias" : "NO"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 24 Nov 2015 23:25:02 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,157 @@
+%button.btn.btn-default.pull-right.hide-on-print{"ng-click"=>"switchToComparisonView()"} Back to Comparison View
+
+#table-display.printable
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th CDIAC Number
+        %th Issuance Documents
+        %th Sold Status
+        %th Sale Date
+        %th Issuer County
+        %th MKR Authority
+        %th Local Obligation
+        %th MKR CDIAC Number
+        %th Issuer Group
+        %th Issuer Type
+        %th Issuer
+    %tbody
+      %tr{"ng-repeat"=>"issuance in issuancesArray | orderBy: 'cdiac_number_alias'"}
+        %td {{issuance.cdiac_number_alias}}
+        %td {{issuance.issuance_documents_alias}} ({{issuance.issuance_documents_alias_url}})
+        %td {{issuance.sold_status_alias}}
+        %td {{issuance.sale_date_alias}}
+        %td {{issuance.issuer_county_alias}}
+        %td {{issuance.mkr_authority_alias}}
+        %td {{issuance.local_obligation_alias}}
+        %td {{issuance.mkr_cdiac_number_alias}}
+        %td {{issuance.issuer_group_alias}}
+        %td {{issuance.issuer_type_alias}}
+        %td {{issuance.issuer_alias}}
+
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th Project Name
+        %th Principal Amount
+        %th New Money
+        %th Refunding Amount
+        %th Debt Type
+        %th Purpose
+        %th Source of Repayment
+        %th TIC Interest Rate
+        %th NIC Interest Rate
+        %th Interest Type
+    %tbody
+      %tr{"ng-repeat"=>"issuance in issuancesArray"}
+        %td {{issuance.project_name_alias}}
+        %td {{issuance.principal_amount_alias}}
+        %td {{issuance.new_money_alias}}
+        %td {{issuance.refunding_amount_alias}}
+        %td {{issuance.debt_type_alias}}
+        %td {{issuance.purpose_alias}}
+        %td {{issuance.source_of_repayment_alias}}
+        %td {{issuance.tic_interest_rate_alias}}
+        %td {{issuance.nic_interest_rate_alias}}
+        %td {{issuance.interest_type_alias}}
+
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th Other Interest Type
+        %th Federally Taxable
+        %th First Optional Call Date
+        %th Final Maturity Date
+        %th Cab Flag
+        %th S & P Rating
+        %th Moody Rating
+        %th Fitch Rating
+        %th Other Rating
+        %th Guarantor Flag
+    %tbody
+      %tr{"ng-repeat"=>"issuance in issuancesArray"}
+        %td {{issuance.other_interest_type_alias}}
+        %td {{issuance.federally_taxable_alias}}
+        %td {{issuance.first_optional_call_date_alias}}
+        %td {{issuance.final_maturity_date_alias}}
+        %td {{issuance.cab_flag_alias}}
+        %td {{issuance.s_and_p_rating_alias}}
+        %td {{issuance.moody_rating_alias}}
+        %td {{issuance.fitch_rating_alias}}
+        %td {{issuance.other_rating_alias}}
+        %td {{issuance.guarantor_flag_alias}}
+
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th Guarantor
+        %th Sale Type Comp Neg
+        %th Private Placement Flag
+        %th Underwriter
+        %th Lender
+        %th Purchaser
+        %th Placesment Agent
+        %th Financial Advisor
+        %th Bond Counsel
+        %th Co-Bond Counsel
+        %th Disclosure Counsel
+    %tbody
+      %tr{"ng-repeat"=>"issuance in issuancesArray"}
+        %td {{issuance.guarantor_alias}}
+        %td {{issuance.sale_type_comp_neg_alias}}
+        %td {{issuance.private_placement_flag_alias}}
+        %td {{issuance.underwriter_alias}}
+        %td {{issuance.lender_alias}}
+        %td {{issuance.purchaser_alias}}
+        %td {{issuance.placement_agent_alias}}
+        %td {{issuance.financial_advisor_alias}}
+        %td {{issuance.bond_counsel_alias}}
+        %td {{issuance.co_bond_counsel_alias}}
+        %td {{issuance.disclosure_counsel_alias}}
+
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th Borrower Counsel
+        %th Trustee
+        %th Issue Cost percent of Principal
+        %th Total Issuance Costs
+        %th UW Takedown
+        %th UW Mngmt Fee
+        %th UW Expenses
+        %th UW Total Discount/Spread
+        %th Placement Agent Fee
+        %th Financial Advisor Fee
+    %tbody
+      %tr{"ng-repeat"=>"issuance in issuancesArray"}
+        %td {{issuance.borrower_counsel_alias}}
+        %td {{issuance.trustee_alias}}
+        %td {{issuance.issue_cost_percent_of_principal_alias}}
+        %td {{issuance.total_issuance_costs_alias}}
+        %td {{issuance.uw_takedown_alias}}
+        %td {{issuance.uw_mngmt_fee}}
+        %td {{issuance.uw_expenses_alias}}
+        %td {{issuance.uw_total_discount_spread_alias}}
+        %td {{issuance.financial_advisor_fee_alias}}
+
+  %table.table.table-condensed
+    %thead
+      %tr
+        %th Bond Counsel Fee
+        %th Co-Bond Counsel Fee
+        %th Disclosure Counsel Fee
+        %th Borrower Counsel Fee
+        %th Trustee Fee
+        %th Credit Enhancement Fee
+        %th Rating Agency Fee
+        %th Other Issuance Expenses
+    %tbody
+      %tr{"ng-repeat"=>"issuance in issuancesArray"}
+        %td {{issuance.bond_counsel_fee_alias}}
+        %td {{issuance.co_bond_counsel_fee_alias}}
+        %td {{issuance.disclosure_counsel_fee_alias}}
+        %td {{issuance.borrower_counsel_fee_alias}}
+        %td {{issuance.trustee_fee_alias}}
+        %td {{issuance.credit_enhancement_fee_alias}}
+        %td {{issuance.rating_agency_fee_alias}}
+        %td {{issuance.other_issuance_expenses_alias}}

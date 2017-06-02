@@ -1,0 +1,115 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %meta{name: "viewport", content: "width=device-width,initial-scale=1"}
+
+    %meta{property: "og:title", content: "California State Treasurer Debt Watch" }/
+    %meta{property: "og:type", content: "website" }/
+    %meta{property: "og:url", content: "http://debtwatch.treasurer.ca.gov/" }/
+    %meta{property: "og:image", content: "http://www.treasurer.ca.gov/images/banner.png?1234" }/
+    %meta{property: "og:description", content: "A Powerful Way of Exploring Debt in California" }/
+
+    %meta{property: "twitter:card", content: "summary"}/
+    %meta{property: "twitter:site", content: "@CalTreasurer"}/
+    %meta{property: "twitter:description", content: "A Powerful Way of Exploring Debt in California"}/
+    %meta{property: "twitter:image", content: "http://www.treasurer.ca.gov/images/banner.png?1234"}/
+    %meta{property: "twitter:url", content: "http://debtwatch.treasurer.ca.gov/"}/
+    %meta{property: "twitter:title", content: "California State Treasurer Debt Watch"}/
+
+    %title California State Treasurer Debt Watch
+    = favicon_link_tag(source='favicon.ico', options={})
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+    = render 'layouts/google_analytics'
+  %body{"ng-app"=>"debtwatch", :class=>"controller_custom_content action_custom_content_page locale_en home"}
+    #skip-links{role: "navigation", "aria-label" => "primary"}
+      %a.sr-only{href: "#content"} Skip to main content
+      %a.sr-only{href: "#footerLinks"} Skip to footer links
+
+    .siteOuterWrapper{"ng-class"=>"{'issuer-selection-view': selectionView}"}
+      .siteInnerWrapper
+        #siteHeader{class: "clearfix", role: "banner"}
+          %header
+            .container
+              .row
+                .header-title
+                  %a{href: "http://www.treasurer.ca.gov", tabindex: "0", title: "Main California Treasurer page"}
+                    %img.header-logo{src: "http://www.treasurer.ca.gov/images/treasurer.png?1234", alt: "Socrata"}
+                  %a{href: "http://www.treasurer.ca.gov", tabindex: "0", title: "Main California Treasurer page" }
+                    %img.header-logo.banner-logo{src: "http://www.treasurer.ca.gov/images/banner.png?1234", alt: "John Chiang Image"}
+                  = render "shared/header_header_links" if @show_header_links
+
+                #search-mobile
+                  .search-container.search
+                    %form.ng-pristine.ng-valid
+
+                      %input.search-input{type: "text", placeholder: "Search", tabindex: "0"}
+
+                      %button.search-button{type: "submit"}
+                        %span.search-icon.fa.fa-search
+                        %span.search-button-text.visuallyhidden Search
+
+
+            %nav.nav-banner{role: "navigation", "aria-label" => "secondary"}
+              .container
+                %ul.nav.nav-links
+                  %li
+                    %a{href: "/"}Home
+                  %li
+                    %a{href: "https://data.debtwatch.treasurer.ca.gov/about"} About this Site
+                  %li
+                    %a{href: "https://data.debtwatch.treasurer.ca.gov/glossary"} Glossary
+                  %li
+                    %a{href: "https://data.debtwatch.treasurer.ca.gov/tutorials"} Tutorials
+                  %li
+                    %a{href: "https://data.debtwatch.treasurer.ca.gov/browse?category=Raw+Data&utf8=%E2%9C%93"} Raw Export
+                  %li
+                    %a{href: "http://www.treasurer.ca.gov/debtwatchcomments.asp"} Contact and Feedback
+                  %li
+                    %a{href: "https://data.debtwatch.treasurer.ca.gov/browse"} Catalog
+                #search-desktop{role: "search"}
+                  .search-container.search
+                    %form.ng-pristine.ng-valid{action: "https://data.debtwatch.treasurer.ca.gov/browse", method: "get"}
+
+                      %input.search-input{type: "text", placeholder: "Search", name: "q"}
+
+                      %button.search-button{type: "submit"}
+                        %span.search-icon.fa.fa-search
+                        %span.search-button-text.visuallyhidden Search
+
+        %noscript Please enable javascript in your browser to use this site.
+
+    #noticeContainer{"ng-cloak" => "true"}
+      .alert.alert-info{role: "alert", "ng-show"=> "notice_show"}
+        {{notice}}
+      .alert.alert-danger{role: "alert", "ng-show"=> "alert_show"}
+        {{alert}}
+
+    .siteContentWrapper{role: "main"}
+      #content
+        = yield
+      %br
+      %br
+
+    %footer{role: "contentinfo"}
+      #footerLinks
+        %nav.navbar
+          .container-fluid
+            #copyright
+              &copy; 2015 California State Treasurer's Office
+            %br
+            %br
+            %ul.nav.navbar-nav
+              %li
+                %a{href: "/"} Home
+              %li
+                %a{href: "https://data.debtwatch.treasurer.ca.gov/browse"} Catalog
+              %li
+                %a{href: "http://www.treasurer.ca.gov/disclaimer.asp"} Privacy Policy
+              %li
+                %a{href: "http://www.treasurer.ca.gov/accessibility.asp"} Accessibility
+              %li
+                %a{href: "http://www.treasurer.ca.gov/debtwatchcomments.asp"} Contact

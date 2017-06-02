@@ -1,0 +1,399 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Wed, 07 Oct 2015 11:41:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmnt Fee",
+          "issuer_dataset_match" : "UW Mngmnt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:31 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/2itf-4v9s.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Mon, 02 Nov 2015 19:34:04 UTC
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["id",":updated_at","debt_issued_in_past_12_months","color_hex","datalens",":id",":created_at","socrata_group","socrata_group_description"]'
+      X-Soda2-Types:
+      - '["number","meta_data","text","text","text","meta_data","meta_data","text","text"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "id" : "1",
+          "debt_issued_in_past_12_months" : "4.8 Billion",
+          "color_hex" : "ba5d9e",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/counties",
+          "socrata_group" : "Counties",
+          "socrata_group_description" : "Debt issued by counties (including San Francisco)"
+        }
+        , {
+          "id" : "2",
+          "debt_issued_in_past_12_months" : "15.4 Billion",
+          "color_hex" : "c79738",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/state-of-california",
+          "socrata_group" : "State of California",
+          "socrata_group_description" : "Debt issued by State and its agencies"
+        }
+        , {
+          "id" : "3",
+          "debt_issued_in_past_12_months" : "17.6 Billion",
+          "color_hex" : "7bbf43",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/k-14",
+          "socrata_group" : "K-14 Schools",
+          "socrata_group_description" : "Debt issued by K-14 school and community college districts"
+        }
+        , {
+          "id" : "4",
+          "debt_issued_in_past_12_months" : "4.4 Billion",
+          "color_hex" : "3d58a1",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/uccsu",
+          "socrata_group" : "UC & CSU",
+          "socrata_group_description" : "Debt issued by University of California, California State University systems"
+        }
+        , {
+          "id" : "5",
+          "debt_issued_in_past_12_months" : "12.4 Billion",
+          "color_hex" : "912666",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/jpa-mark-roos",
+          "socrata_group" : "JPA & Marks-Roos",
+          "socrata_group_description" : "Debt issued by joint powers authorities, including Mark-Roos financings"
+        }
+        , {
+          "id" : "6",
+          "debt_issued_in_past_12_months" : "3.1 Billion",
+          "color_hex" : "a4c944",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/mello-roos",
+          "socrata_group" : "Mello-Roos",
+          "socrata_group_description" : "Debt issued by special financing districts"
+        }
+        , {
+          "id" : "7",
+          "debt_issued_in_past_12_months" : "6.2 Billion",
+          "color_hex" : "c7662e",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/special-districts",
+          "socrata_group" : "Special Districts",
+          "socrata_group_description" : "Debt issued by special districts (water, sewer, etc.)"
+        }
+        , {
+          "id" : "8",
+          "debt_issued_in_past_12_months" : "9.8 Billion",
+          "color_hex" : "329669",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/cities",
+          "socrata_group" : "Cities",
+          "socrata_group_description" : "Debt issued by cities and their agencies (for S.F., see Counties)"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:32 GMT
+recorded_with: VCR 2.9.3

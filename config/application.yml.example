@@ -1,0 +1,30 @@
+# Remember to update config/application.yml.example when adding or removing
+#   entries from this file
+
+county_map_dataset:   '4by4-4by4'
+issuer_dataset:       '4by4-4by4'
+landing_page_dataset: '4by4-4by4'
+carousel_dataset:     '4by4-4by4'
+wheel_reference:      '4by4-4by4'
+column_map_dataset:   '4by4-4by4'
+select_page_dataset:  '4by4-4by4'
+other_issuance_data:  '4by4-4by4'
+mapbox_api_token:     'loooong key'
+
+test:
+  debtwatch_domain:    'domain.url.gov'
+  debtwatch_app_token: 'stringofcharacterstoken'
+  debtwatch_username:  'email@example.com'
+  debtwatch_password:  'password'
+
+development:
+  debtwatch_domain:    'domain.url.gov'
+  debtwatch_app_token: 'stringofcharacterstoken'
+  debtwatch_username:  'email@example.com'
+  debtwatch_password:  'password'
+
+production:
+  debtwatch_domain:    'domain.url.gov'
+  debtwatch_app_token: 'stringofcharacterstoken'
+  debtwatch_username:  'email@example.com'
+  debtwatch_password:  'password'

@@ -1,0 +1,2094 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 03 Dec 2015 22:18:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Thu, 05 Nov 2015 16:13:57 PST
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmt Fee",
+          "issuer_dataset_match" : "UW Mngmt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "MKR Authority",
+          "issuer_dataset_match" : "MKR Authority"
+        }
+        , {
+          "permanent_castos" : "Local Obligation",
+          "issuer_dataset_match" : "Local Obligation"
+        }
+        , {
+          "permanent_castos" : "MKR CDIAC Number",
+          "issuer_dataset_match" : "MKR CDIAC Number"
+        }
+         ]
+    http_version: 
+  recorded_at: Thu, 03 Dec 2015 22:18:57 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/yng6-vaxy.json?$limit=50000&$select=cdiac_number%20as%20cdiac_number_alias,%20issuer%20as%20issuer_alias,%20issuer_county%20as%20issuer_county_alias,%20sold_status%20as%20sold_status_alias,%20sale_date%20as%20sale_date_alias,%20debt_type%20as%20debt_type_alias,%20principal_amount%20as%20principal_amount_alias,%20source_of_repayment%20as%20source_of_repayment_alias,%20purpose%20as%20purpose_alias,%20refunding_amount%20as%20refunding_amount_alias,%20issuer_group%20as%20issuer_group_alias,%20total_issuance_costs%20as%20total_issuance_costs_alias,%20new_money%20as%20new_money_alias,%20issuer_type%20as%20issuer_type_alias,%20net_issue_discount%20as%20net_issue_discount_alias,%20issue_costs_pct_of_principal_amt%20as%20issue_cost_percent_of_principal_alias&$where=(issuer_group%20=%20'Cities'%20AND%20issuer_type%20=%20'City%20Government')%20AND%20(issuer%20=%20'Brea'%20OR%20issuer%20=%20'Riverside')
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 03 Dec 2015 22:18:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Mon, 23 Nov 2015 10:11:22 PST
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["new_money_alias","refunding_amount_alias","cdiac_number_alias","debt_type_alias",":updated_at","total_issuance_costs_alias","sold_status_alias","net_issue_discount_alias","issuer_county_alias","issue_cost_percent_of_principal_alias","issuer_type_alias","issuer_group_alias","issuer_alias","purpose_alias","principal_amount_alias",":id",":created_at","sale_date_alias","source_of_repayment_alias"]'
+      X-Soda2-Types:
+      - '["number","number","text","text","meta_data","number","text","text","text","number","text","text","text","text","number","meta_data","meta_data","calendar_date","text"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "new_money_alias" : "7605000",
+          "cdiac_number_alias" : "1984-0981",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "59105",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.78",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "7605000",
+          "sale_date_alias" : "1985-02-08T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "100000",
+          "cdiac_number_alias" : "1984-0966",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Street Construction and Improvements",
+          "principal_amount_alias" : "100000",
+          "sale_date_alias" : "1985-02-13T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1985-0329",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "9400000",
+          "total_issuance_costs_alias" : "309238",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.29",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "9400000",
+          "sale_date_alias" : "1985-05-07T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "5250000",
+          "cdiac_number_alias" : "1985-0555",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "187500",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.57",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "5250000",
+          "sale_date_alias" : "1985-05-21T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "11100000",
+          "cdiac_number_alias" : "1985-0639",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "542180.66",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "4.88",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "11100000",
+          "sale_date_alias" : "1985-05-24T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "4200000",
+          "cdiac_number_alias" : "1985-0472",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Orange",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Brea",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "4200000",
+          "sale_date_alias" : "1985-06-04T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "3400000",
+          "cdiac_number_alias" : "1985-0952",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "3400000",
+          "sale_date_alias" : "1985-06-04T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "6700000",
+          "cdiac_number_alias" : "1985-1778",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "281236.8",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "4.2",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "6700000",
+          "sale_date_alias" : "1985-06-07T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "11000000",
+          "cdiac_number_alias" : "1985-0466",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "330",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "11000000",
+          "sale_date_alias" : "1985-06-11T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "10595000",
+          "cdiac_number_alias" : "1985-0993",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "10595000",
+          "sale_date_alias" : "1985-09-04T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "2300000",
+          "cdiac_number_alias" : "1985-0350",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "43963",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.91",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "2300000",
+          "sale_date_alias" : "1985-11-22T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "33835000",
+          "cdiac_number_alias" : "1985-1340",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "33835000",
+          "sale_date_alias" : "1985-12-05T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "100000000",
+          "cdiac_number_alias" : "1985-1341",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "100000000",
+          "sale_date_alias" : "1985-12-06T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "15900000",
+          "cdiac_number_alias" : "1985-1363",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "504290.74",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.17",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "15900000",
+          "sale_date_alias" : "1985-12-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "16500000",
+          "cdiac_number_alias" : "1985-1364",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "527450.25",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.2",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "16500000",
+          "sale_date_alias" : "1985-12-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "13125000",
+          "cdiac_number_alias" : "1985-1478",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "13125000",
+          "sale_date_alias" : "1985-12-10T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "1500000",
+          "cdiac_number_alias" : "1985-1519",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "10000000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "11500000",
+          "sale_date_alias" : "1985-12-27T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1986-0130",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "121025000",
+          "total_issuance_costs_alias" : "232006",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.19",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "121025000",
+          "sale_date_alias" : "1986-04-01T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "5000000",
+          "cdiac_number_alias" : "1986-0279",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Orange",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Brea",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "5000000",
+          "sale_date_alias" : "1986-06-03T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "8550000",
+          "cdiac_number_alias" : "1986-0248",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "8550000",
+          "sale_date_alias" : "1986-06-10T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "8970000",
+          "cdiac_number_alias" : "1986-0509",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "111451",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.24",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Equipment",
+          "principal_amount_alias" : "8970000",
+          "sale_date_alias" : "1986-08-05T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "8160000",
+          "cdiac_number_alias" : "1986-0598",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "8160000",
+          "sale_date_alias" : "1986-08-05T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "4740960",
+          "cdiac_number_alias" : "1987-0275",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "41739040",
+          "total_issuance_costs_alias" : "315000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.68",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Hospital",
+          "principal_amount_alias" : "46480000",
+          "sale_date_alias" : "1987-03-11T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "48585000",
+          "cdiac_number_alias" : "1987-0178",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "11415000",
+          "total_issuance_costs_alias" : "125000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.21",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "60000000",
+          "sale_date_alias" : "1987-07-24T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "17600000",
+          "cdiac_number_alias" : "1987-0768",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "17600000",
+          "sale_date_alias" : "1987-10-08T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "7275000",
+          "cdiac_number_alias" : "1988-0612",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Health Care Facilities",
+          "principal_amount_alias" : "7275000",
+          "sale_date_alias" : "1988-08-31T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1987-0410",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "30795000",
+          "total_issuance_costs_alias" : "101557",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.33",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "30795000",
+          "sale_date_alias" : "1989-07-07T00:00:00",
+          "source_of_repayment_alias" : "Tax increment"
+        }
+        , {
+          "new_money_alias" : "3800000",
+          "cdiac_number_alias" : "1989-0351",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "20000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.53",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "3800000",
+          "sale_date_alias" : "1989-08-01T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "7500000",
+          "cdiac_number_alias" : "1990-0276",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "7500000",
+          "sale_date_alias" : "1990-04-10T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1990-0438",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "6700000",
+          "total_issuance_costs_alias" : "91450",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.36",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "6700000",
+          "sale_date_alias" : "1990-07-03T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "33081389",
+          "cdiac_number_alias" : "1991-0175",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "19732100",
+          "total_issuance_costs_alias" : "360200",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.68",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "52813489",
+          "sale_date_alias" : "1991-03-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "54990000",
+          "cdiac_number_alias" : "1991-0176",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "13185000",
+          "total_issuance_costs_alias" : "449200",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.66",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "68175000",
+          "sale_date_alias" : "1991-03-26T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1991-0221",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "7515000",
+          "total_issuance_costs_alias" : "75737.05",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.01",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "7515000",
+          "sale_date_alias" : "1991-05-09T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "4268565",
+          "cdiac_number_alias" : "1991-0694",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Street Construction and Improvements",
+          "principal_amount_alias" : "4268565",
+          "sale_date_alias" : "1991-07-30T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "187957",
+          "cdiac_number_alias" : "1991-1319",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "2326743",
+          "total_issuance_costs_alias" : "91266",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.63",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Equipment",
+          "principal_amount_alias" : "2514700",
+          "sale_date_alias" : "1992-03-03T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "3950000",
+          "cdiac_number_alias" : "1992-0547",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Orange",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Brea",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "3950000",
+          "sale_date_alias" : "1992-06-09T00:00:00",
+          "source_of_repayment_alias" : "Property tax revenues"
+        }
+        , {
+          "new_money_alias" : "4416947",
+          "cdiac_number_alias" : "1992-1447",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Street Construction and Improvements",
+          "principal_amount_alias" : "4416947",
+          "sale_date_alias" : "1992-11-05T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1992-1366",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "9420000",
+          "total_issuance_costs_alias" : "120773",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.28",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "9420000",
+          "sale_date_alias" : "1992-12-08T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1992-1367",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "7745000",
+          "total_issuance_costs_alias" : "103371",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.33",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "7745000",
+          "sale_date_alias" : "1992-12-08T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "540000",
+          "cdiac_number_alias" : "1993-0005",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "540000",
+          "sale_date_alias" : "1992-12-08T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "435000",
+          "cdiac_number_alias" : "1993-0006",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "435000",
+          "sale_date_alias" : "1992-12-08T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1993-0248",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "118550000",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "118550000",
+          "sale_date_alias" : "1993-03-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "6000000",
+          "cdiac_number_alias" : "1993-0723",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Orange",
+          "issue_cost_percent_of_principal_alias" : "0",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Brea",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "6000000",
+          "sale_date_alias" : "1993-06-08T00:00:00",
+          "source_of_repayment_alias" : "Property tax revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "1993-1354",
+          "debt_type_alias" : "Conduit revenue bond",
+          "refunding_amount_alias" : "3060000",
+          "total_issuance_costs_alias" : "184980",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "6.05",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multifamily Housing",
+          "principal_amount_alias" : "3060000",
+          "sale_date_alias" : "1993-08-26T00:00:00",
+          "source_of_repayment_alias" : "Private obligor payments"
+        }
+        , {
+          "new_money_alias" : "5200000",
+          "cdiac_number_alias" : "1994-0668",
+          "debt_type_alias" : "Tax and revenue anticipation note",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "7000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Orange",
+          "issue_cost_percent_of_principal_alias" : "0.13",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Brea",
+          "purpose_alias" : "Cash Flow, Interim Financing",
+          "principal_amount_alias" : "5200000",
+          "sale_date_alias" : "1994-06-13T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "12776893",
+          "cdiac_number_alias" : "1998-0372",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "18188107",
+          "total_issuance_costs_alias" : "235082",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.76",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "30965000",
+          "sale_date_alias" : "1998-05-07T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "42498438",
+          "cdiac_number_alias" : "1998-0419",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "56231562",
+          "total_issuance_costs_alias" : "950301",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.96",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "98730000",
+          "sale_date_alias" : "1998-05-07T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "6341504",
+          "cdiac_number_alias" : "1998-1490",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "205084",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.23",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "6341504",
+          "sale_date_alias" : "1999-03-03T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "20000000",
+          "cdiac_number_alias" : "2001-1365",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "287568",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.44",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "20000000",
+          "sale_date_alias" : "2001-08-02T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "47215000",
+          "cdiac_number_alias" : "2001-1366",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "568539",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "1402605",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.2",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "47215000",
+          "sale_date_alias" : "2001-08-02T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "10198078",
+          "cdiac_number_alias" : "2001-1414",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "334238",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.28",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "10198078",
+          "sale_date_alias" : "2001-08-15T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2003-0461",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "75405000",
+          "total_issuance_costs_alias" : "869989",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.15",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "75405000",
+          "sale_date_alias" : "2003-06-12T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "53185000",
+          "cdiac_number_alias" : "2003-2030",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1080904",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "1407954",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.03",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "53185000",
+          "sale_date_alias" : "2003-12-09T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "1037537",
+          "cdiac_number_alias" : "2004-0084",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "7642463",
+          "total_issuance_costs_alias" : "257947",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "84463",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.97",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "8680000",
+          "sale_date_alias" : "2004-02-24T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "27500000",
+          "cdiac_number_alias" : "2004-0283",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "246098",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.89",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "27500000",
+          "sale_date_alias" : "2004-05-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "82500000",
+          "cdiac_number_alias" : "2004-0839",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1018275",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.23",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "82500000",
+          "sale_date_alias" : "2004-05-27T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "20000000",
+          "cdiac_number_alias" : "2004-0596",
+          "debt_type_alias" : "General obligation bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "302339",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.51",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Public Building",
+          "principal_amount_alias" : "20000000",
+          "sale_date_alias" : "2004-06-08T00:00:00",
+          "source_of_repayment_alias" : "Property tax revenues"
+        }
+        , {
+          "new_money_alias" : "3755000",
+          "cdiac_number_alias" : "2004-0615",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "185000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "4.93",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "3755000",
+          "sale_date_alias" : "2004-06-10T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "30000000",
+          "cdiac_number_alias" : "2005-0598",
+          "debt_type_alias" : "Pension obligation bonds",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "488550",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.63",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30000000",
+          "sale_date_alias" : "2005-06-21T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "30000000",
+          "cdiac_number_alias" : "2005-1242",
+          "debt_type_alias" : "Pension obligation bonds",
+          "refunding_amount_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30000000",
+          "sale_date_alias" : "2005-06-21T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "35608002",
+          "cdiac_number_alias" : "2005-1435",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "25516998",
+          "total_issuance_costs_alias" : "683447",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.12",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "61125000",
+          "sale_date_alias" : "2005-10-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "72538728",
+          "cdiac_number_alias" : "2005-1436",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "43186272",
+          "total_issuance_costs_alias" : "1149436",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.99",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "115725000",
+          "sale_date_alias" : "2005-10-03T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "15269906",
+          "cdiac_number_alias" : "2006-0086",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "308356",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.02",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Flood Control, Storm Drainage",
+          "principal_amount_alias" : "15269906",
+          "sale_date_alias" : "2006-02-28T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "19945000",
+          "cdiac_number_alias" : "2005-1088",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "552133",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "218777",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.77",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "19945000",
+          "sale_date_alias" : "2006-09-13T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "118975000",
+          "cdiac_number_alias" : "2007-0367",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1427865",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.2",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "118975000",
+          "sale_date_alias" : "2007-03-27T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "9047372",
+          "cdiac_number_alias" : "2008-0304",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "119252628",
+          "total_issuance_costs_alias" : "589664",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.46",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "128300000",
+          "sale_date_alias" : "2008-04-16T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2008-0307",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "84515000",
+          "total_issuance_costs_alias" : "277406",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.33",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "84515000",
+          "sale_date_alias" : "2008-04-30T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2008-0308",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "57275000",
+          "total_issuance_costs_alias" : "220227",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.38",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "57275000",
+          "sale_date_alias" : "2008-04-30T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2008-0309",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "57325000",
+          "total_issuance_costs_alias" : "220786",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.39",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "57325000",
+          "sale_date_alias" : "2008-04-30T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "209740000",
+          "cdiac_number_alias" : "2008-0310",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "4331234",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "4548185",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.07",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "209740000",
+          "sale_date_alias" : "2008-05-08T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2008-0325",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "60300000",
+          "total_issuance_costs_alias" : "467751",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.78",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "60300000",
+          "sale_date_alias" : "2008-05-12T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "58235000",
+          "cdiac_number_alias" : "2008-0326",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1491034.35",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "1896738",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.56",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "58235000",
+          "sale_date_alias" : "2008-05-15T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "200000",
+          "cdiac_number_alias" : "2008-0488",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30000000",
+          "total_issuance_costs_alias" : "200000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.66",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Project, Interim Financing",
+          "principal_amount_alias" : "30200000",
+          "sale_date_alias" : "2008-05-30T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2009-0315",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30425000",
+          "total_issuance_costs_alias" : "208595.75",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.69",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Project, Interim Financing",
+          "principal_amount_alias" : "30425000",
+          "sale_date_alias" : "2009-05-13T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "36835000",
+          "cdiac_number_alias" : "2009-0868",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "185880.76",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "3266804.6",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "36835000",
+          "sale_date_alias" : "2009-08-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "204075000",
+          "cdiac_number_alias" : "2009-0869",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "1029798.31",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.5",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "204075000",
+          "sale_date_alias" : "2009-08-20T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2009-1273",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "34920000",
+          "total_issuance_costs_alias" : "346632",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "3214106",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.99",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "34920000",
+          "sale_date_alias" : "2009-11-17T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "9459483",
+          "cdiac_number_alias" : "2009-1274",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "22435517",
+          "total_issuance_costs_alias" : "222281",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "3739796",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.7",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "31895000",
+          "sale_date_alias" : "2009-11-17T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "67790000",
+          "cdiac_number_alias" : "2010-0068",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "472438",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.7",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "67790000",
+          "sale_date_alias" : "2009-11-17T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "20660000",
+          "cdiac_number_alias" : "2009-1253",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "402300",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.95",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Commercial Development",
+          "principal_amount_alias" : "20660000",
+          "sale_date_alias" : "2010-03-16T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2010-0414",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30600000",
+          "total_issuance_costs_alias" : "203858.08",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.67",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30600000",
+          "sale_date_alias" : "2010-05-19T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "133290000",
+          "cdiac_number_alias" : "2010-1558",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "542194",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.41",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "133290000",
+          "sale_date_alias" : "2010-12-08T00:00:00",
+          "source_of_repayment_alias" : "Other sources"
+        }
+        , {
+          "new_money_alias" : "7090000",
+          "cdiac_number_alias" : "2010-1559",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "39832",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "476506",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.56",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "7090000",
+          "sale_date_alias" : "2010-12-08T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "3500000",
+          "cdiac_number_alias" : "2010-1645",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "3500000",
+          "sale_date_alias" : "2010-12-16T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "21500000",
+          "cdiac_number_alias" : "2010-1646",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "107613",
+          "issuer_county_alias" : "Riverside",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Parking",
+          "principal_amount_alias" : "21500000",
+          "sale_date_alias" : "2010-12-16T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2011-0232",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "56450000",
+          "total_issuance_costs_alias" : "276997.95",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.49",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "56450000",
+          "sale_date_alias" : "2011-04-28T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2011-0231",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "59000000",
+          "total_issuance_costs_alias" : "402371.89",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.68",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Water Supply, Storage, Distribution",
+          "principal_amount_alias" : "59000000",
+          "sale_date_alias" : "2011-05-18T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2011-0414",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30775000",
+          "total_issuance_costs_alias" : "198914.84",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.65",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Project, Interim Financing",
+          "principal_amount_alias" : "30775000",
+          "sale_date_alias" : "2011-05-18T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2011-1382",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "7805000",
+          "total_issuance_costs_alias" : "175646.6",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "2.25",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "7805000",
+          "sale_date_alias" : "2011-11-29T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2011-1553",
+          "debt_type_alias" : "Special assessment bond",
+          "refunding_amount_alias" : "4050000",
+          "total_issuance_costs_alias" : "139611.5",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "3.45",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Multiple Capital Improvements, Public Works",
+          "principal_amount_alias" : "4050000",
+          "sale_date_alias" : "2012-01-11T00:00:00",
+          "source_of_repayment_alias" : "Special assessments"
+        }
+        , {
+          "new_money_alias" : "4000000",
+          "cdiac_number_alias" : "2012-0440",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "22000",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.55",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Parks, Open Space",
+          "principal_amount_alias" : "4000000",
+          "sale_date_alias" : "2012-04-05T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2012-0631",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30940000",
+          "total_issuance_costs_alias" : "185190.38",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.6",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30940000",
+          "sale_date_alias" : "2012-05-01T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "41650000",
+          "cdiac_number_alias" : "2012-0030",
+          "debt_type_alias" : "Public lease revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "257965",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.62",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Convention Center",
+          "principal_amount_alias" : "41650000",
+          "sale_date_alias" : "2012-07-19T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-0808",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30940000",
+          "total_issuance_costs_alias" : "183259.32",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.59",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30940000",
+          "sale_date_alias" : "2013-05-01T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2013-1256",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "79080000",
+          "total_issuance_costs_alias" : "475282.53",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "4981113.55",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.6",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "79080000",
+          "sale_date_alias" : "2013-07-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "780000",
+          "cdiac_number_alias" : "2013-1257",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "14059.4",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "1.8",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Power Generation/Transmission",
+          "principal_amount_alias" : "780000",
+          "sale_date_alias" : "2013-07-10T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "3000000",
+          "cdiac_number_alias" : "2013-2134",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "25250",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.84",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Convention Center",
+          "principal_amount_alias" : "3000000",
+          "sale_date_alias" : "2014-03-25T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2014-0514",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30940000",
+          "total_issuance_costs_alias" : "189982.15",
+          "sold_status_alias" : "SOLD",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.61",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30940000",
+          "sale_date_alias" : "2014-05-08T00:00:00",
+          "source_of_repayment_alias" : "Bond proceeds"
+        }
+        , {
+          "new_money_alias" : "50000000",
+          "cdiac_number_alias" : "2014-0680",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "86911.51",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.17",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "50000000",
+          "sale_date_alias" : "2014-06-25T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "0",
+          "cdiac_number_alias" : "2015-0624",
+          "debt_type_alias" : "Bond anticipation note",
+          "refunding_amount_alias" : "30940000",
+          "total_issuance_costs_alias" : "183970.64",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.59",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Insurance and Pension Funds",
+          "principal_amount_alias" : "30940000",
+          "sale_date_alias" : "2015-05-07T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+        , {
+          "new_money_alias" : "149995155.14",
+          "cdiac_number_alias" : "2015-0622",
+          "debt_type_alias" : "Public enterprise revenue bond",
+          "refunding_amount_alias" : "50034844.86",
+          "total_issuance_costs_alias" : "771120",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "24370317.05",
+          "issuer_county_alias" : "Riverside",
+          "issue_cost_percent_of_principal_alias" : "0.39",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Riverside",
+          "purpose_alias" : "Wastewater Collection, Treatment",
+          "principal_amount_alias" : "200030000",
+          "sale_date_alias" : "2015-05-28T00:00:00",
+          "source_of_repayment_alias" : "Public enterprise revenues"
+        }
+        , {
+          "new_money_alias" : "1952104",
+          "cdiac_number_alias" : "2015-1660",
+          "debt_type_alias" : "Certificates of participation/leases",
+          "refunding_amount_alias" : "0",
+          "total_issuance_costs_alias" : "21500",
+          "sold_status_alias" : "SOLD",
+          "net_issue_discount_alias" : "0",
+          "issuer_county_alias" : "Orange",
+          "issue_cost_percent_of_principal_alias" : "1.1",
+          "issuer_type_alias" : "City Government",
+          "issuer_group_alias" : "Cities",
+          "issuer_alias" : "Brea",
+          "purpose_alias" : "Equipment",
+          "principal_amount_alias" : "1952104",
+          "sale_date_alias" : "2015-08-05T00:00:00",
+          "source_of_repayment_alias" : "General fund of issuing jurisdiction"
+        }
+         ]
+    http_version: 
+  recorded_at: Thu, 03 Dec 2015 22:18:57 GMT
+recorded_with: VCR 2.9.3

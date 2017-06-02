@@ -1,0 +1,2828 @@
+/*** css/styles.css ***/
+
+
+
+
+/*
+ *
+ *
+ *
+ * This file was automatically generated from /src by Gulp.
+ * Do not edit directly unless Gulp is removed from this repository!
+ *
+ *
+ *
+ */
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: visible;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.leaflet-container {
+    background: #fff;
+    font: .75rem/1.25rem 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #404040;
+    color: rgba(0, 0, 0, .75);
+    outline: 0;
+    overflow: hidden;
+    -ms-touch-action: none
+}
+
+.leaflet-container *,
+.leaflet-container:after,
+.leaflet-container:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.leaflet-container h1,
+.leaflet-container h2,
+.leaflet-container h3,
+.leaflet-container h4,
+.leaflet-container h5,
+.leaflet-container h6,
+.leaflet-container p {
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    margin: 0 0 10px
+}
+
+.leaflet-container a {
+    color: #3887BE;
+    font-weight: 400;
+    text-decoration: none
+}
+
+.leaflet-container a:hover {
+    color: #63b6e5
+}
+
+
+.leaflet-container .mapbox-button:hover,
+.mapbox-button:hover {
+    color: #fff;
+    background-color: #3bb2d0
+}
+
+.leaflet-image-layer,
+.leaflet-layer,
+.leaflet-map-pane,
+.leaflet-marker-icon,
+.leaflet-marker-pane,
+.leaflet-marker-shadow,
+.leaflet-overlay-pane,
+.leaflet-overlay-pane svg,
+.leaflet-popup-pane,
+.leaflet-shadow-pane,
+.leaflet-tile,
+.leaflet-tile-container,
+.leaflet-tile-pane,
+.leaflet-zoom-box {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+    display: block
+}
+
+.leaflet-tile {
+    filter: inherit;
+    visibility: hidden
+}
+
+.leaflet-tile-loaded {
+    visibility: inherit
+}
+
+.leaflet-zoom-box {
+    width: 0;
+    height: 0
+}
+
+.leaflet-tile-pane {
+    z-index: 2
+}
+
+.leaflet-objects-pane {
+    z-index: 3
+}
+
+.leaflet-overlay-pane {
+    z-index: 4
+}
+
+.leaflet-shadow-pane {
+    z-index: 5
+}
+
+.leaflet-marker-pane {
+    z-index: 6
+}
+
+.leaflet-popup-pane {
+    z-index: 7
+}
+
+.leaflet-control {
+    position: relative;
+    z-index: 7;
+    pointer-events: auto;
+    float: left;
+    clear: both
+}
+
+.leaflet-right .leaflet-control {
+    float: right
+}
+
+.leaflet-top .leaflet-control {
+    margin-top: 10px
+}
+
+.leaflet-bottom .leaflet-control {
+    margin-bottom: 10px
+}
+
+.leaflet-left .leaflet-control {
+    margin-left: 10px
+}
+
+.leaflet-right .leaflet-control {
+    margin-right: 10px
+}
+
+.leaflet-bottom,
+.leaflet-top {
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none
+}
+
+.leaflet-top {
+    top: 0
+}
+
+.leaflet-right {
+    right: 0
+}
+
+.leaflet-bottom {
+    bottom: 0
+}
+
+.leaflet-left {
+    left: 0
+}
+
+.leaflet-fade-anim .leaflet-popup,
+.leaflet-fade-anim .leaflet-tile {
+    opacity: 0;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear
+}
+
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup,
+.leaflet-fade-anim .leaflet-tile-loaded {
+    opacity: 1
+}
+
+.leaflet-zoom-anim .leaflet-zoom-animated {
+    -webkit-transition: -webkit-transform .25s cubic-bezier(0, 0, .25, 1);
+    -moz-transition: -moz-transform .25s cubic-bezier(0, 0, .25, 1);
+    -o-transition: -o-transform .25s cubic-bezier(0, 0, .25, 1);
+    transition: transform .25s cubic-bezier(0, 0, .25, 1)
+}
+
+.leaflet-pan-anim .leaflet-tile,
+.leaflet-touching .leaflet-zoom-animated,
+.leaflet-zoom-anim .leaflet-tile {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none
+}
+
+.leaflet-zoom-anim .leaflet-zoom-hide {
+    visibility: hidden
+}
+
+.leaflet-container {
+    cursor: -webkit-grab;
+    cursor: -moz-grab
+}
+
+.leaflet-container.leaflet-clickable,
+.leaflet-container.map-clickable,
+.leaflet-marker-icon,
+.leaflet-overlay-pane path {
+    cursor: pointer
+}
+
+.leaflet-control,
+.leaflet-popup-pane {
+    cursor: auto
+}
+
+.leaflet-dragging,
+.leaflet-dragging .leaflet-clickable,
+.leaflet-dragging .leaflet-container,
+.leaflet-dragging .map-clickable {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing
+}
+
+.leaflet-zoom-box {
+    background: #fff;
+    border: 2px dotted #202020;
+    opacity: .5
+}
+
+.leaflet-bar,
+.leaflet-control-layers {
+    background-color: #fff;
+    border: 1px solid #999;
+    border-color: rgba(0, 0, 0, .4);
+    border-radius: 3px;
+    box-shadow: none
+}
+
+.leaflet-bar a,
+.leaflet-bar a:hover {
+    color: #404040;
+    color: rgba(0, 0, 0, .75);
+    border-bottom: 1px solid #ddd;
+    border-bottom-color: rgba(0, 0, 0, .1)
+}
+
+.leaflet-bar a:active,
+.leaflet-bar a:hover {
+    background-color: #f8f8f8;
+    cursor: pointer
+}
+
+.leaflet-bar a:first-child {
+    border-radius: 3px 3px 0 0
+}
+
+.leaflet-bar a:last-child {
+    border-bottom: 0;
+    border-radius: 0 0 3px 3px
+}
+
+.leaflet-bar a:only-of-type {
+    border-radius: 3px
+}
+
+.leaflet-bar .leaflet-disabled {
+    cursor: default;
+    opacity: .75
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    display: block;
+    content: '';
+    text-indent: -999em
+}
+
+.leaflet-control-layers .leaflet-control-layers-list,
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+    display: none
+}
+
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+    display: block;
+    position: relative
+}
+
+.leaflet-control-layers-expanded {
+    background: #fff;
+    padding: 6px 10px 6px 6px;
+    color: #404040;
+    color: rgba(0, 0, 0, .75)
+}
+
+.leaflet-control-layers-selector {
+    margin-top: 2px;
+    position: relative;
+    top: 1px
+}
+
+.leaflet-control-layers label {
+    display: block
+}
+
+.leaflet-control-layers-separator {
+    height: 0;
+    border-top: 1px solid #ddd;
+    border-top-color: rgba(0, 0, 0, .1);
+    margin: 5px -10px 5px -6px
+}
+
+.leaflet-container .leaflet-control-attribution {
+    background-color: rgba(255, 255, 255, .5);
+    margin: 0;
+    box-shadow: none
+}
+
+.leaflet-container .leaflet-control-attribution a,
+.leaflet-container .map-info-container a {
+    color: #404040
+}
+
+.leaflet-control-attribution a:hover,
+.map-info-container a:hover {
+    color: inherit;
+    text-decoration: underline
+}
+
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+    padding: 0 5px
+}
+
+.leaflet-left .leaflet-control-scale {
+    margin-left: 5px
+}
+
+.leaflet-bottom .leaflet-control-scale {
+    margin-bottom: 5px
+}
+
+.leaflet-control-scale-line {
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid #999;
+    border-color: rgba(0, 0, 0, .4);
+    border-top: 0;
+    padding: 2px 5px 1px;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.leaflet-control-scale-line:not(:first-child) {
+    border-top: 2px solid #ddd;
+    border-top-color: rgba(0, 0, 0, .1);
+    border-bottom: 0;
+    margin-top: -2px
+}
+
+.leaflet-control-scale-line:not(:first-child):not(:last-child) {
+    border-bottom: 2px solid #777
+}
+
+.leaflet-popup {
+    position: absolute;
+    text-align: center;
+    pointer-events: none
+}
+
+.leaflet-popup-content-wrapper {
+    padding: 1px;
+    text-align: left;
+    pointer-events: all
+}
+
+.leaflet-popup-content {
+    padding: 10px 10px 15px;
+    margin: 0;
+    line-height: inherit
+}
+
+.leaflet-popup-tip-container {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative
+}
+
+.leaflet-popup-tip {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    box-shadow: none
+}
+
+.leaflet-popup-close-button {
+    text-indent: -999em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: all
+}
+
+.leaflet-popup-close-button:hover {
+    background-color: #f8f8f8
+}
+
+.leaflet-popup-scrolled {
+    overflow: auto;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd
+}
+
+.leaflet-div-icon {
+    background: #fff;
+    border: 1px solid #999;
+    border-color: rgba(0, 0, 0, .4)
+}
+
+.leaflet-editing-icon {
+    border-radius: 3px
+}
+
+.leaflet-bar a,
+.leaflet-control-layers-toggle,
+.leaflet-popup-close-button,
+.map-tooltip.closable .close,
+.mapbox-button-icon:before,
+.mapbox-icon {
+    content: '';
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    background-repeat: no-repeat
+}
+
+.leaflet-bar a {
+    display: block
+}
+
+.leaflet-container.dark .map-tooltip .close,
+.leaflet-control-layers-toggle,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-popup-close-button,
+.map-tooltip .close,
+.mapbox-icon {
+    opacity: .75;
+    background-repeat: no-repeat;
+    background-size: 26px 260px;
+}
+
+.leaflet-container.dark .leaflet-control-layers-toggle,
+.leaflet-container.dark .leaflet-control-zoom-in,
+.leaflet-container.dark .leaflet-control-zoom-out,
+.leaflet-container.dark .mapbox-icon,
+.mapbox-button-icon:before {
+    opacity: 1;
+    background-image: url(images/icons-ffffff.png);
+    background-size: 26px 260px
+}
+
+.leaflet-bar .leaflet-control-zoom-in {
+    background-position: 0 0
+}
+
+.leaflet-bar .leaflet-control-zoom-out {
+    background-position: 0 -26px
+}
+
+.leaflet-popup-close-button,
+.map-tooltip .close {
+    background-position: 0 -52px
+}
+
+.mapbox-icon-info {
+    background-position: 0 -78px
+}
+
+.leaflet-control-layers-toggle {
+    background-position: 0 -104px
+}
+
+.mapbox-icon-share,
+.mapbox-icon-share:before {
+    background-position: 0 -130px
+}
+
+.mapbox-icon-geocoder,
+.mapbox-icon-geocoder:before {
+    background-position: 0 -156px
+}
+
+.mapbox-icon-facebook,
+.mapbox-icon-facebook:before {
+    background-position: 0 -182px
+}
+
+
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .leaflet-control-layers-toggle,
+    .leaflet-control-zoom-in,
+    .leaflet-control-zoom-out,
+    .leaflet-popup-close-button,
+    .mapbox-icon {
+        background-image: url(images/icons-000000@2x.png)
+    }
+    .leaflet-container.dark .leaflet-control-layers-toggle,
+    .leaflet-container.dark .leaflet-control-zoom-in,
+    .leaflet-container.dark .leaflet-control-zoom-out,
+    .leaflet-container.dark .mapbox-icon,
+    .mapbox-button-icon:before {
+        background-image: url(images/icons-ffffff@2x.png)
+    }
+}
+
+.leaflet-popup-content-wrapper,
+.map-legends,
+.map-tooltip {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1)
+}
+
+.map-legends,
+.map-tooltip {
+    max-width: 300px
+}
+
+.map-legends .map-legend {
+    padding: 10px
+}
+
+.map-tooltip {
+    z-index: 999999;
+    padding: 10px;
+    min-width: 180px;
+    max-height: 400px;
+    overflow: auto;
+    opacity: 1;
+    -webkit-transition: opacity 150ms;
+    -moz-transition: opacity 150ms;
+    -o-transition: opacity 150ms;
+    transition: opacity 150ms
+}
+
+.map-tooltip .close {
+    text-indent: -999em;
+    overflow: hidden;
+    display: none
+}
+
+.map-tooltip.closable .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 3px
+}
+
+.map-tooltip.closable .close:active {
+    background-color: #f8f8f8
+}
+
+.leaflet-control-interaction {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px
+}
+
+.leaflet-popup-content .marker-title {
+    font-weight: 700
+}
+
+.leaflet-control .mapbox-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-color: rgba(0, 0, 0, .1);
+    padding: 5px 10px;
+    border-radius: 3px
+}
+
+.mapbox-modal>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow-y: auto
+}
+
+.mapbox-modal.active>div {
+    z-index: 99999;
+    transition: all .2s, z-index 0 0
+}
+
+.mapbox-modal .mapbox-modal-mask {
+    background: rgba(0, 0, 0, .5);
+    opacity: 0
+}
+
+.mapbox-modal.active .mapbox-modal-mask {
+    opacity: 1
+}
+
+.mapbox-modal .mapbox-modal-content {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+.mapbox-modal.active .mapbox-modal-content {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.mapbox-modal-body {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    z-index: 1000;
+    width: 50%;
+    margin: 20px 0 20px 25%
+}
+
+.mapbox-share-buttons {
+    margin: 0 0 20px
+}
+
+.mapbox-share-buttons a {
+    width: 33.3333%;
+    border-left: 1px solid #fff;
+    text-align: center;
+    border-radius: 0
+}
+
+.mapbox-share-buttons a:last-child {
+    border-radius: 0 3px 3px 0
+}
+
+.mapbox-share-buttons a:first-child {
+    border: 0;
+    border-radius: 3px 0 0 3px
+}
+
+.mapbox-modal input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-color: rgba(0, 0, 0, .1);
+    color: rgba(0, 0, 0, .5)
+}
+
+.leaflet-control.mapbox-control-info {
+    margin: 5px 30px 10px 10px;
+    min-height: 26px
+}
+
+.leaflet-right .leaflet-control.mapbox-control-info {
+    margin: 5px 10px 10px 30px
+}
+
+.mapbox-info-toggle {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1
+}
+
+.leaflet-right .mapbox-control-info .mapbox-info-toggle {
+    left: auto;
+    right: 0
+}
+
+.mapbox-info-toggle:hover {
+    background-color: #fff
+}
+
+.map-info-container {
+    background: #fff;
+    padding: 3px 5px 3px 27px;
+    display: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-radius: 13px 3px 3px 13px
+}
+
+.leaflet-right .map-info-container {
+    left: auto;
+    right: 0;
+    padding: 3px 27px 3px 5px;
+    border-radius: 3px 13px 13px 3px
+}
+
+.mapbox-control-info.active .map-info-container {
+    display: inline-block
+}
+
+.leaflet-container .mapbox-improve-map {
+    font-weight: 700
+}
+
+.leaflet-control-mapbox-geocoder {
+    position: relative
+}
+
+.leaflet-control-mapbox-geocoder.searching {
+    opacity: .75
+}
+
+.leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-wrap {
+    background: #fff;
+    position: absolute;
+    border: 1px solid #999;
+    border-color: rgba(0, 0, 0, .4);
+    overflow: hidden;
+    left: 26px;
+    height: 28px;
+    width: 0;
+    top: -1px;
+    border-radius: 0 3px 3px 0;
+    opacity: 0;
+    -webkit-transition: opacity 100ms;
+    -moz-transition: opacity 100ms;
+    -o-transition: opacity 100ms;
+    transition: opacity 100ms
+}
+
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-wrap {
+    width: 180px;
+    opacity: 1
+}
+
+.leaflet-bar .leaflet-control-mapbox-geocoder-toggle,
+.leaflet-bar .leaflet-control-mapbox-geocoder-toggle:hover {
+    border-bottom: 0
+}
+
+.leaflet-control-mapbox-geocoder-toggle {
+    border-radius: 3px
+}
+
+.leaflet-control-mapbox-geocoder.active,
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-toggle {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-form input {
+    background: 0 0;
+    border: 0;
+    width: 180px;
+    padding: 0 0 0 10px;
+    height: 26px;
+    outline: 0
+}
+
+.leaflet-control-mapbox-geocoder-results {
+    width: 180px;
+    position: absolute;
+    left: 26px;
+    top: 25px;
+    border-radius: 0 0 3px 3px
+}
+
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-results {
+    background: #fff;
+    border: 1px solid #999;
+    border-color: rgba(0, 0, 0, .4)
+}
+
+.leaflet-control-mapbox-geocoder-results a,
+.leaflet-control-mapbox-geocoder-results span {
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    font-size: .75px;
+    line-height: 1.625rem;
+    text-align: left;
+    overflow: hidden
+}
+
+.leaflet-container.dark .leaflet-control .leaflet-control-mapbox-geocoder-results a:hover,
+.leaflet-control-mapbox-geocoder-results a:hover {
+    background: #f8f8f8;
+    opacity: 1
+}
+
+.leaflet-right .leaflet-control-mapbox-geocoder-results,
+.leaflet-right .leaflet-control-mapbox-geocoder-wrap {
+    left: auto;
+    right: 26px
+}
+
+.leaflet-right .leaflet-control-mapbox-geocoder-wrap {
+    border-radius: 3px 0 0 3px
+}
+
+.leaflet-right .leaflet-control-mapbox-geocoder.active,
+.leaflet-right .leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-toggle {
+    border-radius: 0 3px 3px 0
+}
+
+.leaflet-bottom .leaflet-control-mapbox-geocoder-results {
+    top: auto;
+    bottom: 25px;
+    border-radius: 3px 3px 0 0
+}
+
+.leaflet-container.dark .leaflet-bar {
+    background-color: #404040;
+    border-color: #202020;
+    border-color: rgba(0, 0, 0, .75)
+}
+
+.leaflet-container.dark .leaflet-bar a {
+    color: #404040;
+    border-color: rgba(0, 0, 0, .5)
+}
+
+.leaflet-container.dark .leaflet-bar a:active,
+.leaflet-container.dark .leaflet-bar a:hover {
+    background-color: #505050
+}
+
+.leaflet-container.dark .leaflet-control-attribution,
+.leaflet-container.dark .map-info-container,
+.leaflet-container.dark .mapbox-info-toggle {
+    background-color: rgba(0, 0, 0, .5);
+    color: #f8f8f8
+}
+
+.leaflet-container.dark .leaflet-control-attribution a,
+.leaflet-container.dark .leaflet-control-attribution a:hover,
+.leaflet-container.dark .map-info-container a,
+.leaflet-container.dark .map-info-container a:hover {
+    color: #fff
+}
+
+.leaflet-container.dark .leaflet-control-layers-list span {
+    color: #f8f8f8
+}
+
+.leaflet-container.dark .leaflet-control-layers-separator {
+    border-top-color: rgba(255, 255, 255, .1)
+}
+
+.leaflet-container.dark .leaflet-bar a.leaflet-disabled,
+.leaflet-container.dark .leaflet-control .mapbox-button.disabled {
+    background-color: #252525;
+    color: #404040
+}
+
+.leaflet-container.dark .leaflet-control-mapbox-geocoder>div {
+    border-color: #202020;
+    border-color: rgba(0, 0, 0, .75)
+}
+
+.leaflet-container.dark .leaflet-control .leaflet-control-mapbox-geocoder-results a {
+    border-color: #ddd #202020;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .75)
+}
+
+.leaflet-container.dark .leaflet-control .leaflet-control-mapbox-geocoder-results span {
+    border-color: #202020;
+    border-color: rgba(0, 0, 0, .75)
+}
+
+@media only screen and (max-width: 800px) {
+    .mapbox-modal-body {
+        width: 83.3333%;
+        margin-left: 8.3333%
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .mapbox-modal-body {
+        width: 100%;
+        height: 100%;
+        margin: 0
+    }
+}
+
+
+.leaflet-container img.leaflet-tile {
+    max-width: none!important
+}
+
+.leaflet-container img.leaflet-marker-icon {
+    max-width: none
+}
+
+.leaflet-container img.leaflet-image-layer {
+    max-width: 15000px!important
+}
+
+.leaflet-overlay-pane svg {
+    -moz-user-select: none
+}
+
+.mapbox-modal .mapbox-modal-content {
+    display: none
+}
+
+.mapbox-modal.active .mapbox-modal-content {
+    display: block
+}
+
+.map-tooltip {
+    width: 280px\8
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSonF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+
+@charset "UTF-8";
+
+
+
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+html:hover [class^="ss-"]{-ms-zoom: 1;}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  BASE STYLES
+  Overrides on base.css
+
+  -   Sets up generic site structure
+  -   Modifies box-sizing
+  -   Provides for responsive layout
+  -   Sets up default element behaviors
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+html, body {
+  background: #ffffff;
+  color: #5f5f5f;
+  overflow-x: hidden;
+  height: auto; }
+
+body.controller_custom_content * {
+  box-sizing: border-box; }
+body.controller_custom_content .siteContentWrapper {
+  padding: 0 !important; }
+
+header *, footer *, #footer * {
+  box-sizing: border-box; }
+
+.siteOuterWrapper {
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0;}
+
+.siteInnerWrapper {
+  padding: 0;
+  margin: 0;
+  max-width: 100%; }
+
+#siteFooter {
+  height: auto !important;
+  margin-top: 0 !important;
+  clear: both; }
+
+body:not([class*='action_datasets_']) {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.issuer-selection-view.siteOuterWrapper {
+    margin-bottom: 2rem; }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  CONTAINER
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.container, body:not(.controller_custom_content) .siteContentWrapper {
+  position: relative;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-bottom: 0; }
+  @media only screen and (min-width: 768px) {
+    .container, body:not(.controller_custom_content) .siteContentWrapper {
+      max-width: 1200px;
+      padding: 0 40px; } }
+
+#analyticsDataContainer .container {
+  max-width: none;
+  padding: 0; }
+
+body:not(.controller_custom_content) .siteContentWrapper {
+  padding: 20px 40px;
+  box-sizing: border-box;
+  .container {
+    padding: 0; }}
+
+body.layout-small-header .container, body[class*='action_datasets_'] .container {
+  padding: 0;
+  max-width: 100%; }
+
+.container {
+  @media only screen and (max-width: 992px) {
+    width: auto;
+  }
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  STANDARD BEHAVIOR FOR HTML ELEMENTS
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit !important;
+  text-decoration: none; }
+
+h2 {
+  color: black;
+  font-size: 1.125rem;
+  line-height: 1.4em;
+  padding: 30px 0 10px;
+}
+
+p, form p {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.4em; }
+
+a {
+  color: #3b5998; }
+  a:hover {
+    color: #4c71ba; }
+  a:active {
+    color: #5f7fc1; }
+  a:visited {
+    color: #3b5998; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+a:focus img, a:active img {
+  box-shadow: none; }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  NAVIGATION (BANNER STYLE)
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+nav, #nav {
+  position: relative; }
+  nav.nav-banner, #nav.nav-banner {
+    margin-top: 20px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #4f80b2;
+    overflow: hidden;
+    font-size: .875rem; }
+    nav.nav-banner *, #nav.nav-banner * {
+      box-sizing: border-box; }
+    @media only screen and (max-width: 885px) {
+      nav.nav-banner, #nav.nav-banner {
+        margin-top: 10px;
+        margin-bottom: 0; }
+        nav.nav-banner .container, #nav.nav-banner .container {
+          margin: 0; } }
+    nav.nav-banner li, #nav.nav-banner li {
+      display: inline-block;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      position: relative;
+      margin-right: 4px; }
+      @media only screen and (max-width: 600px) {
+        nav.nav-banner li, #nav.nav-banner li {
+          display: block;
+          float: none;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+          nav.nav-banner li:last-of-type, #nav.nav-banner li:last-of-type {
+            border-bottom: 0; } }
+      nav.nav-banner li a, #nav.nav-banner li a {
+        display: block;
+        background-color: inherit;
+        border-radius: 0;
+        color: white;
+        font-size: 1rem;
+        padding: 16px;
+        white-space: nowrap; }
+        nav.nav-banner li a:hover, #nav.nav-banner li a:hover {
+          background-color: #618dba;
+          color: white; }
+        nav.nav-banner li a:hover, nav.nav-banner li a:active, #nav.nav-banner li a:hover, #nav.nav-banner li a:active {
+          text-decoration: none; }
+    body.layout-small-header nav.nav-banner, body[class*='action_datasets_'] nav.nav-banner, body.layout-small-header #nav.nav-banner, body[class*='action_datasets_'] #nav.nav-banner {
+      margin-top: 0;
+      margin-bottom: 0; }
+      body.layout-small-header nav.nav-banner li a, body[class*='action_datasets_'] nav.nav-banner li a, body.layout-small-header #nav.nav-banner li a, body[class*='action_datasets_'] #nav.nav-banner li a {
+        font-size: .875rem;
+        padding: 12px; }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  SEARCH
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.search-container {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  font-size: 1rem; }
+  @media only screen and (max-width: 885px) {
+    .search-container {
+      position: relative;
+      text-align: left;
+      margin-top: 10px;
+      top: 0; } }
+  .search-container form {
+    height: 100%;
+    vertical-align: top; }
+    .search-container form input[type=text] {
+      line-height: 1.25rem;
+      font-size: inherit;
+      width: 100px;
+      height: 32px;
+      padding: 4px;
+      border: 1px solid #cacaca;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      outline: none; }
+      @media only screen and (max-width: 768px) {
+        .search-container form input[type=text] {
+          width: 100%;
+          border-radius: 3px;
+          padding-right: 54px; } }
+      @media only screen and (min-width: 769px) {
+        .search-container form input[type=text] {
+          width: 50%; } }
+      @media only screen and (min-width: 885px) {
+        .search-container form input[type=text] {
+          width: 175px; } }
+      @media only screen and (min-width: 1050px) {
+        .search-container form input[type=text] {
+          width: 250px; } }
+  .search-container button.search-button {
+    border: 1px solid #cacaca;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #e3e3e3;
+    color: #5f5f5f;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    position: relative;
+    margin: 0;
+    font-size: 1.125rem;
+    margin-left: -4px;
+    width: 48px;
+    height: 32px;
+    vertical-align: bottom; }
+    @media only screen and (max-width: 768px) {
+      .search-container button.search-button {
+        position: absolute;
+        top: 0;
+        right: 0; } }
+    .search-container button.search-button:hover {
+      background-color: #f0f0f0; }
+  .search-container .search-icon {
+    top: 3px;
+    position: relative; }
+  .nav-banner .search-container {
+    right: 40px;
+    top: 0; }
+    .nav-banner .search-container form {
+      margin: 8px 0; }
+    @media only screen and (max-width: 885px) {
+      .nav-banner .search-container {
+        border-top: 1px solid rgba(0, 0, 0, 0.08); } }
+  body.layout-small-header .search-container, body[class*='action_datasets_'] .search-container {
+    right: 0; }
+
+body.layout-small-header .search-container, body[class*='action_datasets_'] .search-container {
+  display: none; }
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  SITE HEADER  /  NAVIGATION
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+header {
+  padding-top: 14px;
+  z-index: 100;
+  font-family: Arial, sans-serif;}
+  @media only screen and (max-width: 885px) {
+    header {
+      padding-top: 8px; } }
+  header .header-title {
+    position: relative;
+    height: 80px;
+    color: #7a7a7a;
+    white-space: nowrap; }
+    @media only screen and (max-width: 885px) {
+      header .header-title {
+        height: 30px; } }
+    header .header-title a {
+      display: inline-block;
+      height: 100%;
+      line-height: 2.8125rem; }
+      @media only screen and (max-width: 885px) {
+        header .header-title a {
+          line-height: 2.375rem; } }
+    header .header-title .header-access:focus img {
+      box-shadow: 0 0 5px #51cbee; }
+    header .header-title .header-logo {
+      position: absolute;
+      height: 100%; }
+    header .header-title .header-text {
+      margin-left: 60px;
+      font-size: 2rem;
+      font-weight: 200;
+      letter-spacing: -0.02em;
+      color: #7a7a7a; }
+      @media only screen and (max-width: 885px) {
+        header .header-title .header-text {
+          font-size: 1.25rem;
+          margin-left: 40px;
+          line-height: 1.25rem; } }
+  header .header-links {
+    display: none;
+    text-align: right;
+    font-size: .75rem;
+    line-height: 1.2em;
+    height: auto; }
+    @media only screen and (max-width: 885px) {
+      header .header-links {
+        position: relative;
+        top: 10px;
+        right: 2px; } }
+    @media only screen and (min-width: 401px) {
+      header .header-links {
+        position: relative;
+        top: 10px;
+        right: 0; } }
+    @media only screen and (min-width: 768px) {
+      header .header-links {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-bottom: 0; } }
+    @media only screen and (max-width: 885px) {
+      header .header-links .site-user-nav li {
+        display: block; } }
+    header .header-links .site-user-nav li a {
+      color: #3b5998; }
+    header .header-links .social-nav {
+      margin-left: 1em; }
+      @media only screen and (min-width: 768px) {
+        header .header-links .social-nav {
+          position: relative;
+          top: 2px; } }
+      header .header-links .social-nav .fa {
+        font-size: 1.4em; }
+      header .header-links .social-nav a {
+        color: #7a7a7a; }
+        header .header-links .social-nav a:focus {
+          box-shadow: 0 0 5px #51cbee; }
+      header .header-links .social-nav li:not(:first-of-type) {
+        margin-left: 0.5em; }
+    header .header-links ul {
+      display: inline-block; }
+      @media only screen and (max-width: 885px) {
+        header .header-links ul {
+          display: block;
+          margin-bottom: 10px; } }
+      header .header-links ul li {
+        display: inline-block;
+        line-height: 2em; }
+        header .header-links ul li:not(:first-of-type) {
+          margin-left: 1em; }
+  header .header-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: #8dd7f7; }
+    header .header-toggle.toggle-highlight {
+      color: #bde8fa; }
+    @media only screen and (max-width: 885px) {
+      header .header-toggle {
+        right: 3px;
+        font-size: 1rem; } }
+    @media only screen and (min-width: 768px) {
+      header .header-toggle {
+        display: none; } }
+  body.layout-small-header header, body[class*='action_datasets_'] header {
+    padding-top: 0; }
+    body.layout-small-header header .header-title, body[class*='action_datasets_'] header .header-title {
+      height: 40px; }
+      body.layout-small-header header .header-title a, body[class*='action_datasets_'] header .header-title a {
+        line-height: inherit; }
+    body.layout-small-header header .header-text, body[class*='action_datasets_'] header .header-text {
+      margin-left: 30px;
+      font-size: 1.375rem; }
+    body.layout-small-header header .header-toggle, body[class*='action_datasets_'] header .header-toggle {
+      top: 6px; }
+    body.layout-small-header header > .container, body[class*='action_datasets_'] header > .container {
+      padding: 12px 0; }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  FOOTER
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+footer {
+  padding: 36px 12px 36px;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 1px solid transparent;
+  }
+
+  footer ul li {
+    display: inline-block;
+    line-height: 2em;
+    float: none; }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  CUSTOM STYLESHEETS
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  HEADER
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+header .header-title .header-logo {
+  position: relative; }
+  header .header-title .header-logo.banner-logo {
+    margin-top: -30px; }
+    @media only screen and (max-width: 885px) {
+      header .header-title .header-logo.banner-logo {
+        margin-top: -10px; } }
+header .header-links .h1-style {
+  font-size: 2.25rem;
+  color: #000; }
+
+header i {
+  font-size: 1.2em;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  SEARCH BAR
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@media only screen and (min-width: 885px) {
+  #search-mobile {
+    display: none; } }
+@media only screen and (max-width: 885px) {
+  #search-mobile .search-container {
+    margin: 10px; } }
+
+@media only screen and (max-width: 885px) {
+  #search-desktop {
+    display: none; } }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  NAV BAR
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+nav.nav-banner {
+  margin-top: 0px; }
+  nav.nav-banner ul {
+    padding: 12px 0px; }
+    @media only screen and (max-width: 600px) {
+      nav.nav-banner ul {
+        padding: 0; } }
+    nav.nav-banner ul li {
+      margin-right: 0px; }
+      @media only screen and (max-width: 600px) {
+        nav.nav-banner ul li {
+          padding: 10px;
+          font-size: 1rem; } }
+      nav.nav-banner ul li + li {
+        border-left: 1px solid #fff; }
+        @media only screen and (max-width: 600px) {
+          nav.nav-banner ul li + li {
+            border-left: none; } }
+      nav.nav-banner ul li a {
+        padding: 5px;
+        font-size: .875rem;}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  HOME PAGE CAROUSEL
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+body.home #main {
+  margin-top: 0 !important; }
+
+.carousel-intro-box {
+  background-color: #315070;
+  float: none;
+  padding: 2.5em 0em;
+  text-align: center;
+  width: 100%;
+  .carousel-heading {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    @media only screen and (min-width: 885px) {
+      font-size: 2.1rem;
+    }
+    @media only screen and (min-width: 1010px) {
+      font-size: 2.5rem;
+    }
+  }
+  p {
+    color: #fff;
+    font-style: italic;
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.4em;
+    padding: 0;
+    @media only screen and (min-width: 1200px) {
+      margin-left: 9%;
+    }
+    @media only screen and (min-width: 1010px) {
+      font-size: .8rem;
+    }
+  }
+  img {
+    width: 60%;
+    @media only screen and (min-width: 885px) {
+      padding-top: .8rem;
+      width: 100%;
+    }
+    @media only screen and (min-width: 992px) {
+      padding-top:  0;
+    }
+  }
+  .debtwatch-ie {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    @media screen and (min-width:0) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+      padding: 0 8%;
+    }
+    @media screen and (min-width:885) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+      width: 100%;
+      margin-top: 2em;
+    }
+  }
+  @media only screen and (min-width: 885px) {
+    padding: 4em 2em 2.5em 2em;
+    float: left;
+    height: 175px;
+    text-align: left;
+    width: 30%;
+  }
+}
+
+.slide-box {
+  background-color: #C17600;
+  color: #4f80b2;
+  float: none;
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  z-index: 1;
+  ul {
+    padding: 0.5em;
+    li {
+      line-height: 1.5em;
+      color: #fff; }
+  }
+  .item {
+    padding: 0.5em 4em 0.5em 2em;
+  }
+  .carousel-indicators {
+    bottom: 2px;
+  }
+  .carousel-indicators li:last-of-type {
+    margin-left: 4px;
+  }
+  @media only screen and (min-width: 885px) {
+    float: left;
+    width: 70%;
+    height: 175px;
+  }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  HOME PAGE CALIFORNIA STATE MAP
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  #map-container-container {
+    padding: 100px 20px 20px 20px;
+  #map-container {
+    display: none;
+    @media only screen and (min-width: 885px) {
+      display: block;
+      width: 100%;
+      height: 600px;
+      float: left;
+      margin: auto;
+      padding: 0;
+      position: relative;
+      #map-text {
+        color: #000;
+        font-size: .9375rem;
+        width: 40%;
+        float: right;
+        h4 {
+          margin-top: 30px;
+        }
+        #other-issuance-data-links {
+          margin-top: 3rem;
+        }
+      }
+      #map {
+        width: 60%;
+        height: 100%;
+        float: left;
+        svg.leaflet-zoom-animated {
+          background: #FFFFFF; }
+        .leaflet-top.leaflet-left {
+          display: none; }
+        .leaflet-bottom.leaflet-right {
+          display: none; }
+      }
+      .map-overlay {
+        position: absolute;
+        top: 20px;
+        right: 41%;
+        bottom: 20px;
+        left: 20px;
+        pointer-events: none;
+        h1, h2, h3 {
+          margin-top: 0;
+          line-height: 1;
+        }
+        a.btn-info {
+          color: #fff;
+        }
+        a.btn-info:hover {
+          background-color: #2079b4;
+        }
+        .overlay {
+          position: absolute;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+          background-color: #fff;
+          padding: 20px;
+          pointer-events: auto;
+          z-index: 2000;
+        }
+        .summary {
+          width: 260px;
+          padding: 12px !important;
+          line-height: 1.1;
+          &.permanent {
+            display: block; }
+          .actions {
+            margin-top: 10px;
+            text-align: center;
+            display: none; }
+          h5 {
+            margin: 0 0 12px !important;
+            font-size: 1.25rem;}
+          span {
+            float: right;
+            font-size: 1rem;}
+          p {
+            font-size: .75rem;
+            &:first-of-type {
+              margin-top: 12px;}
+            &:last-of-type {
+              margin-bottom: 12px;}
+          }
+          hr {
+            color: #d3d3d3;
+            margin: 5px auto;}
+          a {
+            margin-top: 10px;
+          }
+          &.top:after {
+            content: '';
+            position: absolute;
+            bottom: -16px;
+            left: 24px;
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-top: 16px solid #fff;
+          }
+          &.bottom:before {
+            content: '';
+            position: absolute;
+            top: -16px;
+            left: 24px;
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-bottom: 16px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  HOME PAGE DONUT PIE CHART
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+#debt-issuer {
+  margin-top: 20px;
+  #debt-summary {
+    vertical-align: top;
+    @media only screen and (min-width: 885px) {
+      display: inline-block;
+    }
+  }
+
+  .donut-frame {
+    color: black;
+    font-size: 10px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    @media only screen and (min-width: 400px) {
+      font-size: 14px;
+    }
+    @media only screen and (min-width: 400px) {
+      font-size: 16px;
+    }
+    @media only screen and (min-width: 525px) {
+      font-size: 18px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 16px;
+    }
+    @media only screen and (min-width: 880px) {
+      font-size: 18px;
+    }
+    @media screen and (min-width:0) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+      height: 400px;
+    }
+    @media screen and (min-width:768) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+      height: 620px;
+    }
+    @media screen and (min-width:992) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+      height: 506px;
+    }
+    @media screen and (min-width:1200) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+      height: 580px;
+    }
+
+    #donut-inner {
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%); /* IE 9 */
+      -webkit-transform: translate(-50%,-50%); /* Safari */
+      transform: translate(-50%,-50%);
+      text-align: center;
+      width: 60%;
+      z-index: 100;
+      &.pick-prompt {
+        top: 50%;
+        width: 120%;
+      }
+      .h1-style {
+        font-size: 2em;
+        font-weight: 400;
+      }
+      .pick {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        line-height: 1.3;
+        -ms-transform: translate(-50%,-50%); /* IE 9 */
+        -webkit-transform: translate(-50%,-50%); /* Safari */
+        transform: translate(-50%,-50%);
+      }
+      .inner-arrows {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%); /* IE 9 */
+        -webkit-transform: translate(-50%,-50%); /* Safari */
+        transform: translate(-50%,-50%);
+      }
+      .inner-arrows:not(*:root) {
+        width: 50%;
+      }
+      h4 {
+        font-size: 1.1em;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.2em;
+        padding: 1em 2em;
+      }
+    }
+    #donut-inner {
+      .button-link {
+        border-radius: 0.2em;
+        font-size: 0.9em;
+        padding: 0.6em;
+      }
+    }
+  }
+  #donut-chart {
+    display: block;
+    margin: 15px auto;
+    @media only screen and (min-width: 768px) {
+      float: left;
+    }
+    .arc {
+      cursor: pointer;
+
+      &:hover {
+        opacity: .85;
+      }
+
+      text {
+        font-weight: 500;
+        font-size: 1rem;
+        @media only screen and (min-width: 520px) {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  STYLE REDESIGN - incl. explore all data section, numbers
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+span.num {
+  font-size: 64px;
+  font-weight: bold;
+  color: #C17600;
+  padding-right: 2%;
+  display: none;
+  @media only screen and (min-width: 885px) {
+    display: inline;
+  }
+}
+
+.section-block {
+  h4 {
+    color: black;
+    font-size: 2rem;
+    display: inline;
+  }
+  p {
+    max-height: 999999px;
+    font-size: .9rem;
+    @media only screen and (min-width: 350px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.body-block {
+  p {
+    margin: 3% auto 15%;
+  }
+}
+
+#map-text {
+  margin-top: 8%;
+}
+
+#explore-all {
+  margin: 0 auto;
+  #explore-intro {
+    padding-top: 15%;
+    p {
+      margin-bottom: 5%;
+    }
+  }
+  #mini-donut {
+    padding-top: 10%;
+    img {
+      margin: 0 auto;
+      width: 70%;
+    }
+    @media only screen and (min-width: 600px) {
+      padding: 0;
+    }
+    @media only screen and (min-width: 768px) {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  #inner-mini {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%); /* IE 9 */
+    -webkit-transform: translate(-50%,-50%); /* Safari */
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 10%;
+    @media only screen and (min-width: 600px) {
+      padding: 0;
+    }
+    a {
+      color: black;
+    }
+    h4 {
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      @media only screen and (min-width: 450px) {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+      }
+      @media only screen and (min-width: 600px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}
+
+#other-debt {
+  margin-top: 7%;
+  text-align: center;
+}
+
+#mission {
+  margin-top: 10%;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  Links styled as buttons
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+a.button-link {
+  background-color: #1d4ca5;
+  border-radius: 4px;
+  color: white;
+  font-size: .75rem;
+  line-height: 1.875rem;
+  margin-top: 12px;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+  &:hover {
+    background-color: #2079b4;
+  }
+}
+
+.spacer {
+  width: 2px;
+  height: 1px;
+  content: "";
+  display: inline-block;
+}
+
+.button-group {
+  position: relative;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  FOOTER
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+footer {
+  ul li:not(:first-of-type) {
+    margin-left: 0px !important; }
+  ul li {
+    margin-right: 0px;
+    a {
+      color: #3498DB;
+      padding: 5px;
+      &:hover {
+        color: #2079b4;
+      }
+    }
+  }
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  COMPARISON VIEW
+
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* Sidebar */
+body {
+  background-color: rgba(0,0,0,0);
+}
+
+header {
+  background-color: #fff;
+}
+
+#debtwatch-black {
+  width: 125%;
+  padding-right: 4.8rem;
+  padding-top: .5rem;
+  @media screen and (min-width:768) and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.filters-back {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #F0F0F0;
+  z-index: -1;
+  @media only screen and (min-width: 768px) {
+    right: 71.5%;
+  }
+  @media only screen and (min-width: 1080px) and (max-width: 1200px) {
+    right: 67%;
+  }
+  @media only screen and (min-width: 1200px) {
+    width: calc(50% - 278px);
+  }
+}
+
+p.issuer-text {
+  color: #5f5f5f;
+  font-size: .8rem;
+  margin: .5rem 0;
+}
+.filters {
+  background-color: rgba(0,0,0,0);
+  padding-top: 3%;
+  .btn-default {
+    margin-bottom: .25rem;
+  }
+  h4, .h4-style {
+    color: black;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+  .well {
+    background-color: white;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0 10px;
+    width: 100%;
+    margin-top: .5rem;
+  }
+  .well.danger{
+    box-shadow: 0px 0px 1px 1px $brand-warning inset;
+  }
+
+  select.plain {
+    font-size: 16px;
+  }
+}
+
+.checkbox, .radio {
+  label {
+    font-size: .875rem;
+    line-height: 1.125rem;
+    text-transform: capitalize;
+  }
+}
+
+.checkbox input[type='checkbox'] {
+  margin-left: 0px;
+}
+
+/* Tables */
+@media screen {
+  #table-display {
+    border: 2px solid #ddd;
+    box-shadow: 1px 1px 2px 2px #F0F0F0 inset;
+    height: auto;
+    margin-top: 15px;
+    overflow-x: scroll;
+    width: 100%;
+    table {
+      margin: 10px 0;
+    }
+    &.printable {
+      margin: 1rem auto;
+      table {
+        margin: 2rem 0;
+      }
+    }
+  }
+  button.hide-on-print {
+    margin: 1rem;
+  }
+}
+
+.help-text {
+  color: #A0A0A0;
+  margin-top: 30px;
+}
+
+/* Modal */
+
+.modal-body {
+  max-height: 350px;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.tab-header {
+  font-size: 0.8rem;
+  padding: 1rem 1rem 0.4rem;
+}
+
+.active-tab {
+  border-bottom: solid 2px $brand-success;
+}
+
+.button-row button{
+  margin-left: 6px;
+}
+
+.modal-body .checkbox input[type='checkbox'] {
+  margin-left: -1.2rem;
+}
+
+[ng-click] {
+  cursor: default;
+  &.btn-info, &.btn-warning, &.btn-success {
+    cursor: pointer;
+  }
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.ie9 img[src*=".svg"] {
+  width: 50%;
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src*=".svg"] {
+    width: 50%;
+  }
+  .pick-prompt {
+    margin-top: 20px;
+  }
+}
+
+.charts.grey_charts{
+  background-color: white;
+  filter:alpha(opacity=25); /* IE */
+  opacity: 0.25; /* Safari, Opera */
+  -moz-opacity:0.25; /* FireFox */
+  z-index: 20;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.update {
+  width: 300px;
+  height: 50px;
+  margin: 1em auto 0;
+  @media only screen and (min-width: 768px) {
+    position: fixed;
+    top: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    z-index: 25;
+  }
+}
+
+.text-danger{
+  color: $brand-warning;
+}

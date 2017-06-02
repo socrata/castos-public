@@ -1,0 +1,40 @@
+.col-xs-12
+  %h2 {{dataIdentifier}} Issuers
+
+  %b{"ng-bind-html"=>"explanationHeader"}
+  %p{"ng-bind-html"=>"pageExplanation"}
+  %br
+
+  %form.row
+    .col-xs-12
+      %p{"ng-show"=>"typeOfData == 'type'"} Please select an issuer type, then select an issuer.
+      %p{"ng-show"=>"typeOfData == 'county'"} Please select up to five issuers.
+      %br
+
+    .form-group.col-xs-12.col-sm-3{"ng-show"=>"typeOfData == 'type' && !issuerTypes"}
+      %p.text-info Loading....
+
+    .form-group.col-xs-12.col-sm-3{"ng-show"=>"typeOfData == 'type' && issuerTypes"}
+      %label.sr-only{for: "issuer-type-select"} Select Issuer Type
+      #issuer-type-select{"ng-dropdown-multiselect"=>"", options: "issuerTypes", "selected-model"=>"selectedIssuerType", "extra-settings"=>"issuerTypeSettings", events: "{onItemSelect: getTypeIssuers}", "translation-texts"=>"issuerTypeButtonText"}
+
+
+    .form-group.col-xs-12.col-sm-7{"ng-show"=>"!issuers && showIssuersLoading"}
+      %p.text-info Loading....
+
+    .form-group.col-xs-12.col-sm-7{"ng-show"=>"issuers"}
+      %label.sr-only{for: "selected-issuers"} Select Up to 5 Issuers
+      #selected-issuers{"ng-dropdown-multiselect"=>"", options: "issuers", "selected-model"=>"selectedIssuers", "extra-settings"=>"issuersSettings", "translation-texts"=>"issuersButtonText"}
+
+    .col-xs-12.col-sm-2{"ng-show"=>"issuers"}
+      %button.btn.btn-info{type: "button", "ng-click"=>"submitIssuers()"} Submit
+      %p.text-info{"ng-show"=>"showSubmitLoading"} Loading....
+    .clearfix
+  %br
+
+  %b{"ng-bind-html"=>"expectationHeader"}
+  %p{"ng-bind-html"=>"pageExpectation"}
+
+  = image_tag "chart_screenshot.png", class: "img-responsive center-block", longdesc: "Sample image to show the kinds of charts that can be generated"
+
+

@@ -1,0 +1,141 @@
+%div{"ng-controller"=>"landingController", "ng-cloak" => "true", "ng-click" => "closeModal($event)"}
+  .skip-links
+    %a.sr-only{href: "#carousel"} Skip to carousel
+    %a.sr-only{href: "#debt-issuer"} Skip to debt issuers
+    %a.sr-only{href: ".counties"} Skip to debt by county
+    %a.sr-only{href: "#explore-all"} Skip to explore all debt
+    %a.sr-only{href: "#other-debt"} Skip to other debt
+
+  .carousel-intro-container{id: "carousel"}
+    .carousel-intro-box
+      = image_tag('debtwatch_white.svg', alt: 'debt watch: a powerful way of exploring debt in California', class: 'debtwatch-ie')
+  .slide-box#debt-carousel.carousel{"data-ride"=>"carousel", "data-interval"=>"10000"}
+    .carousel-inner{role: "listbox"}
+      .item.active{id: "first-page"}
+        %h5{"ng-bind-html" => "firstSlide.title", "aria-label" => "title of carousel data"}
+        %p{"ng-bind-html" => "firstSlide.text", "aria-label" => "carousel text"}
+
+      .item{"ng-repeat" => "data in laterSlides"}
+        %h5{"ng-bind-html" => "data.title", "aria-label" => "title of carousel data"}
+        %p{"ng-bind-html" => "data.text", "aria-label" => "carousel text"}
+
+    %ol.carousel-indicators
+      %li.active{"data-target" => "#debt-carousel", "data-slide-to" => "0"}
+      %li{"ng-repeat" => "data in laterSlides", "data-target" => "#debt-carousel", "data-slide-to" => "{{$index + 1}}"}
+
+  .component-Container
+    .container
+      .clearfix
+      .row#debt-issuer
+        .donut-links
+          .sr-only{"ng-repeat" => "data in donutChartData"}
+            %h5 {{data.name}}
+            %p data.debtAmount
+            %a{href: "/debt-comparison#?type=type&value={{sanitizeUrls(data.name)}}"} Compare Issuers
+
+        .col-xs-12.col-sm-5#debt-summary.section-block.body-block
+          .h2-style{"ng-bind-html"=>"title1"}
+          %p{"ng-bind-html"=>"body1"}
+          %span.num 1
+          %h4{"ng-bind-html"=>"title2"}.debt-title
+          %p{"ng-bind-html"=>"body2"}
+        .col-xs-12.col-sm-7{"ng-mouseover"=>"hideMapModal()"}
+          .donut-frame
+            %svg#donut-chart
+            #donut-inner.pick-prompt{"ng-if"=> "!centerData"}
+              = image_tag('arrows.svg', class: "inner-arrows")
+              .h1-style.pick
+                Pick
+                %br
+                One
+            #donut-inner{"ng-if"=> "centerData"}
+              %label.sr-only{:for => "donut-inner"}overall debt for {{centerData.name}}
+              %h4 {{centerData.name}}
+              .h1-style ${{centerData.debtAmount}}
+              %h4 Issued in the last 12 months
+              %p {{centerData.description}}
+
+              %a.button-link{href:"{{centerData.dataLens}}", alt: "data exploration for {{centerData.name}}"}
+                Data Lens
+              .spacer
+              %a.button-link{href: "/debt-comparison#?type=type&value={{sanitizeUrls(centerData.name)}}", alt: "issuer comparison for {{centerData.name}}"}
+                Compare Issuers
+
+        .clearfix{"ng-mouseover"=>"hideMapModal()"}
+
+        .col-xs-12#map-container-container{"ng-controller" => "mapController"}
+          .col-xs-12#map-container
+            #map{"ng-mousemove"=>"onMouseMove($event)"}
+            .map-overlay
+              #map-info-popup.summary.overlay{"ng-show" => "modalIsDisplayed", "ng-mousemove"=>"onMouseMove($event)"}
+                %label.sr-only{:for => "map-info-popup"}overall debt information for {{activeCounty.county}} county
+                %h5.county-name {{activeCounty.county}} County
+                %span{"ng-click" => "closeModalForReal()"} ✕
+                %h6 Debt data in millions as of {{activeCounty.as_of_date | date: 'mediumDate'}}
+                %p
+                  Debt Scheduled for Issuance:
+                  %span {{activeCounty.proposed | currency:"$":0}}
+                .clearfix
+                %p
+                  Number of Issuers:
+                  %span {{activeCounty.proposed_issuer | number}}
+                %hr
+                %p
+                  Debt Issued in {{activeCounty.year}}:
+                  %span {{activeCounty.debt_issued_this_year | currency:"$":0}}
+                .clearfix
+                %p
+                  Number of Issuers:
+                  %span {{activeCounty.issuers_this_year | number}}
+                %hr
+                %p
+                  Debt Issued {{activeCounty.year - 10}}-{{activeCounty.year - 1}}:
+                  %span {{activeCounty.debt_issued_past_10_years | currency:"$":0}}
+                .clearfix
+                %p
+                  Number of Issuers:
+                  %span {{activeCounty.number_of_issuers | number}}
+                %hr
+                %p
+                  County Population ({{activeCounty.year}} est.)
+                  %span {{activeCounty.population | number}}
+                %hr
+                %small {{activeCounty.footnote}}
+                .clearfix
+                %a{href: "{{activeCounty.data_lens_url}}", role: "button", class: "btn btn-sm btn-info pull-left overlay-link", alt: "data visualization"} Data Lens
+                %a{href: "/debt-comparison#?type=county&value={{activeCounty.county}}", role: "button", class: "btn btn-sm btn-info pull-right overlay-link", alt: "Compare issuers"} Compare Issuers
+
+            #map-text.section-block.body-block
+              %span.num 2
+              %h4{"ng-bind-html"=>"title3"}
+              %div{"ng-bind-html"=>"body3"}
+
+
+            %ul.map-links
+              %a.sr-only{href: "{{v.data_lens_url}}", class: "button-link", alt: "link to data lens"} Data Lens
+              %li.sr-only{"ng-repeat" => "(k, v) in countyHash"}
+                %a{href: "/debt-comparison#?type=county&value={{v.county}}", class: "button-link", alt: "Link to issuer comparison tool for {{v.county}}"}Compare Issuers for {{v.county}}
+
+        .clearfix
+      .row#explore-all
+        .col-xs-12.col-sm-5.col-sm-offset-1#explore-intro.section-block.body-block
+          %span.num 3
+          %h4{"ng-bind-html"=>"title4"}
+          %p{"ng-bind-html"=>"body4"}
+        .col-xs-12.col-sm-5.col-lg-5#mini-donut
+          %a{href: "https://data.debtwatch.treasurer.ca.gov/Government/CDA-All-Data/yng6-vaxy", alt: "explore all CDA data"}
+            = image_tag("explore.all.data.svg", class: "img-responsive")
+          #inner-mini
+            %a{href: "https://data.debtwatch.treasurer.ca.gov/Government/CDA-All-Data/yng6-vaxy", alt: "explore all CDA data"}
+              %h4 Explore
+              %h4 All Data
+
+      .row#other-debt.section-block
+        .col-xs-12
+          %h4{"ng-bind-html"=>"title5"}
+          %p{"ng-bind-html"=>"body5"}
+
+        %br
+        %br
+      .row#mission.section-block
+        .col-xs-12{"ng-bind-html"=>"body6"}

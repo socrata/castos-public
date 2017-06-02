@@ -1,0 +1,274 @@
+.filters-back
+
+.col-xs-12.col-sm-3
+  .filters
+    %br
+    %button.reset.btn.btn-block.btn-warning{"ng-click" => "reset()"}
+      %span.fa.fa-plus
+      New Comparison
+
+    %h4 Debt
+    .radio
+      %label{for: "sold"}
+        %input{type: "radio", name: "debt-type", id: "sold", value: "sold", "ng-model"=>"typeOfDebt", "ng-change"=>"setVariablesByDebtType()"}
+        Sold Debt
+    .radio
+      %label{for: "proposed"}
+        %input{type: "radio", name: "debt-type", id: "proposed",value: "proposed", "ng-model"=>"typeOfDebt", "ng-change"=>"setVariablesByDebtType()"}
+        Proposed Debt
+
+    %div{"ng-show"=>"typeOfDebt == 'sold'"}
+      %h4 Between Years
+      %select.plain{"ng-model"=>"minDate", "data-width"=>"30%", "ng-change"=>"updateNeeded()"}
+        %option{"ng-repeat"=>"date in dateArray", value: "{{date}}"} {{date}}
+        %option{value: ""} Any
+      %span.h4-style To
+      %select.plain{"ng-model"=>"maxDate", "data-width"=>"30%", "ng-change"=>"updateNeeded()"}
+        %option{"ng-repeat"=>"date in dateArray", value: "{{date}}"} {{date}}
+        %option{value: ""} Any
+    .clearfix
+    %br
+
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"unCheckAll('all')"} Uncheck All
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"checkAll('all')"} Check All
+    .clearfix
+    %hr
+    %p.issuer-text After modifying your selections, click the "Update Visualization" bar just above the charts to the right
+    %p.issuer-text Unchecking boxes from multiple groupings may return an empty chart
+    %h4
+      Issuers
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"unCheckAll('issuers')"} Uncheck All
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"checkAll('issuers')"} Check All
+    .clearfix
+    %p.text-danger{"ng-show" => 'needIssuers'}
+      You must choose at least one issuer.
+    .well#issuers{"ng-class" => "needIssuers ? 'danger' : ''"}
+      .checkbox{"ng-repeat"=>"issuer in issuersForFilters"}
+        %input{type: "checkbox", "data-checklist-model"=>"exclusions.issuers", "data-checklist-value"=>"issuer", "ng-true-value"=>"false", "ng-false-value"=>"true", id: "{{issuer}}", "checklist-change"=>"updateNeeded()"}
+        %label{for: "{{issuer}}"}
+          {{issuer}}
+        %label.sr-only{for: "issuers"}Issuers for {{dataIdentifier}}
+
+    %h4
+      Purpose
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"unCheckAll('purposes')"} Uncheck All
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"checkAll('purposes')"} Check All
+    .clearfix
+    %p.text-danger{"ng-show" => 'needPurposes'}
+      You must choose at least one purpose.
+    .well#purpose{"ng-class" => "needPurposes ? 'danger' : ''"}
+      .checkbox{"ng-repeat"=>"purpose in purposes"}
+        %input{type: "checkbox",  "data-checklist-model"=>"exclusions.purposes",  "data-checklist-value"=>"purpose", "ng-true-value"=>"false", "ng-false-value"=>"true", id: "{{purpose}}", "checklist-change"=>"updateNeeded()"}
+        %label{for: "{{purpose}}"}
+          {{purpose}}
+        %label.sr-only{for: "purpose"}Purposes for {{dataIdentifier}}
+
+    %h4
+      Debt Type
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"unCheckAll('debtTypes')"} Uncheck All
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"checkAll('debtTypes')"} Check All
+    .clearfix
+    %p.text-danger{"ng-show" => 'needDebtTypes'}
+      You must choose at least one debt type.
+    .well#debt-type{"ng-class" => "needDebtTypes ? 'danger' : ''"}
+      .checkbox{"ng-repeat"=>"debtType in debtTypes"}
+        %input{type: "checkbox", "data-checklist-model"=>"exclusions.debtTypes", "data-checklist-value"=>"debtType", "ng-true-value"=>"false", "ng-false-value"=>"true", id: "{{debtType}}", "checklist-change"=>"updateNeeded()"}
+        %label{for: "{{debtType}}"}
+          {{debtType}}
+        %label.sr-only{for: "debt-type"}Debt Types for {{dataIdentifier}}
+
+    %h4
+      Source
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"unCheckAll('sources')"} Uncheck All
+    %button.btn.btn-xs.btn-default.pull-right{"ng-click"=>"checkAll('sources')"} Check All
+    .clearfix
+    %p.text-danger{"ng-show" => 'needSources'}
+      You must choose at least one source.
+    .well#sources{"ng-class" => "needSources ? 'danger' : ''"}
+      .checkbox{"ng-repeat"=>"source in sources"}
+        %input{type: "checkbox", "data-checklist-model"=>"exclusions.sources", "data-checklist-value"=>"source", "ng-true-value"=>"false", "ng-false-value"=>"true", id: "{{source}}", "checklist-change"=>"updateNeeded()"}
+        %label{for: "{{source}}"}
+          {{source}}
+        %label.sr-only{for: "sources"}Sources for {{dataIdentifier}}
+
+    %p.issuer-text After modifying your selections, click the "Update Visualization" bar just above the charts to the right
+
+.col-xs-12.col-sm-8.col-sm-offset-1.chart-big-box
+  %h2 {{dataIdentifier}} Issuers
+
+  %span.tab-header{"ng-click"=>"chartsTab = true", "ng-class"=>"!chartsTab ? '' : 'active-tab'"} Debt Comparison
+  %span.tab-header{"ng-click"=>"chartsTab = false", "ng-class"=>"chartsTab ? '' : 'active-tab'"} Cost of Issuance
+  %hr
+  .row.button-row
+    .col-xs-12
+      %button.btn.btn-success.pull-right{"ng-click"=>"resetCharts('table')"}
+        %span
+          %icon.fa.fa-table
+        Table
+      %button.btn.btn-warning.pull-right{"ng-click"=>"resetCharts('line')"}
+        %span
+          %icon.fa.fa-line-chart
+        Line Chart
+      %button.btn.btn-info.pull-right{"ng-click"=>"resetCharts('bar')"}
+        %span
+          %icon.fa.fa-bar-chart
+        Bar Chart
+  %p.pull-right.help-text{"ng-show"=>"chartType == 'table'"}
+    Scroll right to view more columns.
+    %icon.fa.fa-chevron-right
+
+  %br
+  %button.reset.update.btn.btn-block.btn-warning{"ng-click" => "calculateSums()", "ng-show" => 'showRefresh'}
+    %span.fa.fa-plus
+    Update Visualization
+
+  %p.text-info{"ng-show" => 'showLoading'}
+    Loading...
+
+  .charts{"ng-show"=>"!chartsTab", "ng-class" => "greyCharts ? 'grey_charts' : ''"}
+    #chart-display{"ng-show"=>"chartType != 'table'"}
+      #chart4{alt: "Chart showing selected cost of issuances"}
+      %label.sr-only{:for => "chart3"}Chart of {{dataIdentifier}} Cost of Issuance
+
+  .charts{"ng-show"=>"chartsTab", "ng-class" => "greyCharts ? 'grey_charts' : ''"}
+    #chart-display{"ng-show"=>"chartType != 'table'"}
+      #chart1{alt: "Chart showing selected principle data"}
+      %label.sr-only{:for => "chart1"}Chart of {{dataIdentifier}} Principle
+      #chart2{alt: "Chart showing selected refund data"}
+      %label.sr-only{:for => "chart2"}Chart of {{dataIdentifier}} Refunds
+      #chart3{alt: "Chart showing selected new money data"}
+      %label.sr-only{:for => "chart3"}Chart of {{dataIdentifier}} New Money
+
+  .table-wrapper{"ng-if"=>"chartType == 'table'"}
+    %button.btn.btn-default{"ng-csv"=>"exportCSVData(issuancesArray)", "csv-header"=>"exportCSVDataHeader(issuancesHeaders)", filename: "debt_watch_all_issuances.csv"} Export CSV
+
+    %button.btn.btn-default{"ng-click"=>"switchToPrintableTableView()"} View Printable Table
+
+    #table-display
+      %table.table.table-condensed
+        %thead
+          %tr
+            %th CDIAC Number
+            %th Issuance Documents
+            %th Sold Status
+            %th Sale Date
+            %th Issuer County
+            %th MKR Authority
+            %th Local Obligation
+            %th MKR CDIAC Number
+            %th Issuer Group
+            %th Issuer Type
+            %th Issuer
+            %th Project Name
+            %th Principal Amount
+            %th New Money
+            %th Refunding Amount
+            %th Debt Type
+            %th Purpose
+            %th Source of Repayment
+            %th TIC Interest Rate
+            %th NIC Interest Rate
+            %th Interest Type
+            %th Other Interest Type
+            %th Federally Taxable
+            %th First Optional Call Date
+            %th Final Maturity Date
+            %th Cab Flag
+            %th S & P Rating
+            %th Moody Rating
+            %th Fitch Rating
+            %th Other Rating
+            %th Guarantor Flag
+            %th Guarantor
+            %th Sale Type Comp Neg
+            %th Private Placement Flag
+            %th Underwriter
+            %th Lender
+            %th Purchaser
+            %th Placesment Agent
+            %th Financial Advisor
+            %th Bond Counsel
+            %th Co-Bond Counsel
+            %th Disclosure Counsel
+            %th Borrower Counsel
+            %th Trustee
+            %th Issue Cost percent of Principal
+            %th Total Issuance Costs
+            %th UW Takedown
+            %th UW Mngmt Fee
+            %th UW Expenses
+            %th UW Total Discount/Spread
+            %th Placement Agent Fee
+            %th Financial Advisor Fee
+            %th Bond Counsel Fee
+            %th Co-Bond Counsel Fee
+            %th Disclosure Counsel Fee
+            %th Borrower Counsel Fee
+            %th Trustee Fee
+            %th Credit Enhancement Fee
+            %th Rating Agency Fee
+            %th Other Issuance Expenses
+
+        %tbody
+          %tr{"ng-repeat"=>"issuance in issuancesArray | orderBy: 'cdiac_number_alias'"}
+            %td {{issuance.cdiac_number_alias}}
+            %td
+              %a{href: '{{issuance.issuance_documents_alias_url}}' } {{issuance.issuance_documents_alias}}
+            %td {{issuance.sold_status_alias}}
+            %td {{issuance.sale_date_alias}}
+            %td {{issuance.issuer_county_alias}}
+            %td {{issuance.mkr_authority_alias}}
+            %td {{issuance.local_obligation_alias}}
+            %td {{issuance.mkr_cdiac_number_alias}}
+            %td {{issuance.issuer_group_alias}}
+            %td {{issuance.issuer_type_alias}}
+            %td {{issuance.issuer_alias}}
+            %td {{issuance.project_name_alias}}
+            %td {{issuance.principal_amount_alias}}
+            %td {{issuance.new_money_alias}}
+            %td {{issuance.refunding_amount_alias}}
+            %td {{issuance.debt_type_alias}}
+            %td {{issuance.purpose_alias}}
+            %td {{issuance.source_of_repayment_alias}}
+            %td {{issuance.tic_interest_rate_alias}}
+            %td {{issuance.nic_interest_rate_alias}}
+            %td {{issuance.interest_type_alias}}
+            %td {{issuance.other_interest_type_alias}}
+            %td {{issuance.federally_taxable_alias}}
+            %td {{issuance.first_optional_call_date_alias}}
+            %td {{issuance.final_maturity_date_alias}}
+            %td {{issuance.cab_flag_alias}}
+            %td {{issuance.s_and_p_rating_alias}}
+            %td {{issuance.moody_rating_alias}}
+            %td {{issuance.fitch_rating_alias}}
+            %td {{issuance.other_rating_alias}}
+            %td {{issuance.guarantor_flag_alias}}
+            %td {{issuance.guarantor_alias}}
+            %td {{issuance.sale_type_comp_neg_alias}}
+            %td {{issuance.private_placement_flag_alias}}
+            %td {{issuance.underwriter_alias}}
+            %td {{issuance.lender_alias}}
+            %td {{issuance.purchaser_alias}}
+            %td {{issuance.placement_agent_alias}}
+            %td {{issuance.financial_advisor_alias}}
+            %td {{issuance.bond_counsel_alias}}
+            %td {{issuance.co_bond_counsel_alias}}
+            %td {{issuance.disclosure_counsel_alias}}
+            %td {{issuance.borrower_counsel_alias}}
+            %td {{issuance.trustee_alias}}
+            %td {{issuance.issue_cost_percent_of_principal_alias}}
+            %td {{issuance.total_issuance_costs_alias}}
+            %td {{issuance.uw_takedown_alias}}
+            %td {{issuance.uw_mngmt_fee}}
+            %td {{issuance.uw_expenses_alias}}
+            %td {{issuance.uw_total_discount_spread_alias}}
+            %td {{issuance.financial_advisor_fee_alias}}
+            %td {{issuance.bond_counsel_fee_alias}}
+            %td {{issuance.co_bond_counsel_fee_alias}}
+            %td {{issuance.disclosure_counsel_fee_alias}}
+            %td {{issuance.borrower_counsel_fee_alias}}
+            %td {{issuance.trustee_fee_alias}}
+            %td {{issuance.credit_enhancement_fee_alias}}
+            %td {{issuance.rating_agency_fee_alias}}
+            %td {{issuance.other_issuance_expenses_alias}}
+

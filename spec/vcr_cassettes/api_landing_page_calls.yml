@@ -1,0 +1,2688 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Wed, 07 Oct 2015 11:41:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmnt Fee",
+          "issuer_dataset_match" : "UW Mngmnt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:06 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/nbqe-9773.json?$limit=58&$select=
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Fri, 23 Oct 2015 11:22:23 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["page_url",":updated_at","proposed_issuer","issuers_this_year","data_lens_url","data_lens","debt_issued_past_10_years","county","footnote","proposed","as_of_date","year","number_of_issuers",":id",":created_at","debt_issued_this_year","population"]'
+      X-Soda2-Types:
+      - '["text","meta_data","number","number","text","text","number","text","text","number","calendar_date","text","number","meta_data","meta_data","number","number"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "page_url" : "alameda",
+          "proposed_issuer" : "2",
+          "issuers_this_year" : "18",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/ppq3-vyct",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/alameda",
+          "debt_issued_past_10_years" : "26881",
+          "county" : "Alameda",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "34",
+          "year" : "2015",
+          "number_of_issuers" : "75",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "1706",
+          "population" : "1574497"
+        }
+        , {
+          "page_url" : "alpine",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/6tjg-pp22",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/alpine",
+          "debt_issued_past_10_years" : "1",
+          "county" : "Alpine",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "1",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "1122"
+        }
+        , {
+          "page_url" : "amador",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "2",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/fczc-q86i",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/amador",
+          "debt_issued_past_10_years" : "100",
+          "county" : "Amador",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "9",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "11",
+          "population" : "36143"
+        }
+        , {
+          "page_url" : "butte",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "3",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/a3cg-ca68",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/butte",
+          "debt_issued_past_10_years" : "477",
+          "county" : "Butte",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "24",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "25",
+          "population" : "222901"
+        }
+        , {
+          "page_url" : "calaveras",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "3",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/2r97-vupg",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/calaveras",
+          "debt_issued_past_10_years" : "201",
+          "county" : "Calaveras",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "17",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "8",
+          "population" : "45567"
+        }
+        , {
+          "page_url" : "colusa",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "2",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/3smy-5axw",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/colusa",
+          "debt_issued_past_10_years" : "35",
+          "county" : "Colusa",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "6",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "10",
+          "population" : "21783"
+        }
+        , {
+          "page_url" : "contra-costa",
+          "proposed_issuer" : "3",
+          "issuers_this_year" : "20",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/xnv9-9esm",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/contra-costa",
+          "debt_issued_past_10_years" : "9658",
+          "county" : "Contra Costa",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "241",
+          "year" : "2015",
+          "number_of_issuers" : "89",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "727",
+          "population" : "1089219"
+        }
+        , {
+          "page_url" : "del-norte",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/36bb-38pr",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/del-norte",
+          "debt_issued_past_10_years" : "70",
+          "county" : "Del Norte",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "7",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "28051"
+        }
+        , {
+          "page_url" : "el-dorado",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "6",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/kg43-nvzj",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/el-dorado",
+          "debt_issued_past_10_years" : "1102",
+          "county" : "El Dorado",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "35",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "90",
+          "population" : "183287"
+        }
+        , {
+          "page_url" : "fresno",
+          "proposed_issuer" : "2",
+          "issuers_this_year" : "9",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/avw4-98ee",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/fresno",
+          "debt_issued_past_10_years" : "3783",
+          "county" : "Fresno",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "225",
+          "year" : "2015",
+          "number_of_issuers" : "67",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "236",
+          "population" : "963375"
+        }
+        , {
+          "page_url" : "glenn",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/dsqj-s48d",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/glenn",
+          "debt_issued_past_10_years" : "101",
+          "county" : "Glenn",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "15",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "28694"
+        }
+        , {
+          "page_url" : "humboldt",
+          "proposed_issuer" : "3",
+          "issuers_this_year" : "8",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/bd66-jk7m",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/humboldt",
+          "debt_issued_past_10_years" : "269",
+          "county" : "Humboldt",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "15",
+          "year" : "2015",
+          "number_of_issuers" : "30",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "62",
+          "population" : "134790"
+        }
+        , {
+          "page_url" : "imperial",
+          "proposed_issuer" : "2",
+          "issuers_this_year" : "8",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/e6kn-amar",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/imperial",
+          "debt_issued_past_10_years" : "1760",
+          "county" : "Imperial",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "54",
+          "year" : "2015",
+          "number_of_issuers" : "52",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "122",
+          "population" : "180998"
+        }
+        , {
+          "page_url" : "inyo",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "1",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/2u4p-d9jf",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/inyo",
+          "debt_issued_past_10_years" : "76",
+          "county" : "Inyo",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "10",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "5",
+          "population" : "18614"
+        }
+        , {
+          "page_url" : "kern",
+          "proposed_issuer" : "3",
+          "issuers_this_year" : "23",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/4gi6-vdn4",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/kern",
+          "debt_issued_past_10_years" : "5701",
+          "county" : "Kern",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "41",
+          "year" : "2015",
+          "number_of_issuers" : "99",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "807",
+          "population" : "868610"
+        }
+        , {
+          "page_url" : "kings",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "4",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/pfrn-pmrz",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/kings",
+          "debt_issued_past_10_years" : "250",
+          "county" : "Kings",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "21",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "25",
+          "population" : "149942"
+        }
+        , {
+          "page_url" : "lake",
+          "proposed_issuer" : "1",
+          "issuers_this_year" : "2",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/rffv-nmkh",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/lake",
+          "debt_issued_past_10_years" : "85",
+          "county" : "Lake",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "3",
+          "year" : "2015",
+          "number_of_issuers" : "17",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "9",
+          "population" : "64759"
+        }
+        , {
+          "page_url" : "lassen",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "3",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/6kcn-bwft",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/lassen",
+          "debt_issued_past_10_years" : "80",
+          "county" : "Lassen",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "12",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "8",
+          "population" : "32367"
+        }
+        , {
+          "page_url" : "los-angeles",
+          "proposed_issuer" : "12",
+          "issuers_this_year" : "88",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/gkfs-9we5",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/los-angeles",
+          "debt_issued_past_10_years" : "119474",
+          "county" : "Los Angeles",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "885",
+          "year" : "2015",
+          "number_of_issuers" : "437",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "9869",
+          "population" : "10054852"
+        }
+        , {
+          "page_url" : "madera",
+          "proposed_issuer" : "1",
+          "issuers_this_year" : "6",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/9pa9-638c",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/madera",
+          "debt_issued_past_10_years" : "795",
+          "county" : "Madera",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "3",
+          "year" : "2015",
+          "number_of_issuers" : "27",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "73",
+          "population" : "154354"
+        }
+        , {
+          "page_url" : "marin",
+          "proposed_issuer" : "1",
+          "issuers_this_year" : "8",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/5x5f-j7dr",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/marin",
+          "debt_issued_past_10_years" : "2059",
+          "county" : "Marin",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "2",
+          "year" : "2015",
+          "number_of_issuers" : "67",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "235",
+          "population" : "257153"
+        }
+        , {
+          "page_url" : "mariposa",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/n6hf-uqpm",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/mariposa",
+          "debt_issued_past_10_years" : "21",
+          "county" : "Mariposa",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "4",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "17843"
+        }
+        , {
+          "page_url" : "mendocino",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "5",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/hwpk-pjeg",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/mendocino",
+          "debt_issued_past_10_years" : "395",
+          "county" : "Mendocino",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "19",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "32",
+          "population" : "88615"
+        }
+        , {
+          "page_url" : "merced",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "7",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/2mzt-mvjy",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/merced",
+          "debt_issued_past_10_years" : "872",
+          "county" : "Merced",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "37",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "195",
+          "population" : "264567"
+        }
+        , {
+          "page_url" : "modoc",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/awn7-ku3c",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/modoc",
+          "debt_issued_past_10_years" : "2",
+          "county" : "Modoc",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "2",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "9481"
+        }
+        , {
+          "page_url" : "mono",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "2",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/4nfj-ikps",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/mono",
+          "debt_issued_past_10_years" : "57",
+          "county" : "Mono",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "11",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "9",
+          "population" : "14625"
+        }
+        , {
+          "page_url" : "monterey",
+          "proposed_issuer" : "3",
+          "issuers_this_year" : "14",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/qi9v-uauz",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/monterey",
+          "debt_issued_past_10_years" : "1941",
+          "county" : "Monterey",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "112",
+          "year" : "2015",
+          "number_of_issuers" : "70",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "279",
+          "population" : "424774"
+        }
+        , {
+          "page_url" : "napa",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "3",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/a9gk-xrbg",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/napa",
+          "debt_issued_past_10_years" : "894",
+          "county" : "Napa",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "21",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "35",
+          "population" : "139074"
+        }
+        , {
+          "page_url" : "nevada",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "2",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/haac-4k7k",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/nevada",
+          "debt_issued_past_10_years" : "239",
+          "county" : "Nevada",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "17",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "19",
+          "population" : "97823"
+        }
+        , {
+          "page_url" : "orange",
+          "proposed_issuer" : "6",
+          "issuers_this_year" : "30",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/sfb8-wa3e",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/orange",
+          "debt_issued_past_10_years" : "27380",
+          "county" : "Orange",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "162",
+          "year" : "2015",
+          "number_of_issuers" : "192",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "1446",
+          "population" : "3114209"
+        }
+        , {
+          "page_url" : "placer",
+          "proposed_issuer" : "2",
+          "issuers_this_year" : "12",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/6n9y-wc4b",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/placer",
+          "debt_issued_past_10_years" : "3371",
+          "county" : "Placer",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "15",
+          "year" : "2015",
+          "number_of_issuers" : "50",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "288",
+          "population" : "366678"
+        }
+        , {
+          "page_url" : "plumas",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "1",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/6pjb-tbz4",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/plumas",
+          "debt_issued_past_10_years" : "39",
+          "county" : "Plumas",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "8",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "15",
+          "population" : "19682"
+        }
+        , {
+          "page_url" : "riverside",
+          "proposed_issuer" : "9",
+          "issuers_this_year" : "114",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/5qhe-sa75",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/riverside",
+          "debt_issued_past_10_years" : "26198",
+          "county" : "Riverside",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "572",
+          "year" : "2015",
+          "number_of_issuers" : "455",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "3656",
+          "population" : "2280191"
+        }
+        , {
+          "page_url" : "sacramento",
+          "proposed_issuer" : "6",
+          "issuers_this_year" : "26",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/puwy-dbpa",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/sacramento",
+          "debt_issued_past_10_years" : "16683",
+          "county" : "Sacramento",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "467",
+          "year" : "2015",
+          "number_of_issuers" : "89",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "1384",
+          "population" : "1456230"
+        }
+        , {
+          "page_url" : "san-benito",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "1",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/uyf9-jxgm",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-benito",
+          "debt_issued_past_10_years" : "292",
+          "county" : "San Benito",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "10",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "14",
+          "population" : "57909"
+        }
+        , {
+          "page_url" : "san-bernardino",
+          "proposed_issuer" : "8",
+          "issuers_this_year" : "31",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/w8cz-anru",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-bernardino",
+          "debt_issued_past_10_years" : "12549",
+          "county" : "San Bernardino",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "63",
+          "year" : "2015",
+          "number_of_issuers" : "218",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "615",
+          "population" : "2084151"
+        }
+        , {
+          "page_url" : "san-diego",
+          "proposed_issuer" : "5",
+          "issuers_this_year" : "59",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/dqrp-vj8z",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-diego",
+          "debt_issued_past_10_years" : "33090",
+          "county" : "San Diego",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "333",
+          "year" : "2015",
+          "number_of_issuers" : "204",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "3586",
+          "population" : "3192457"
+        }
+        , {
+          "page_url" : "san-francisco",
+          "proposed_issuer" : "3",
+          "issuers_this_year" : "6",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/rfbn-chvx",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-francisco",
+          "debt_issued_past_10_years" : "22525",
+          "county" : "San Francisco",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "571",
+          "year" : "2015",
+          "number_of_issuers" : "22",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "1773",
+          "population" : "834903"
+        }
+        , {
+          "page_url" : "san-joaquin",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "10",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/jc3v-q3br",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-joaquin",
+          "debt_issued_past_10_years" : "4603",
+          "county" : "San Joaquin",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "75",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "356",
+          "population" : "708678"
+        }
+        , {
+          "page_url" : "san-luis-obispo",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "6",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/f5e4-kvr6",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-luis-obispo",
+          "debt_issued_past_10_years" : "885",
+          "county" : "San Luis Obispo",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "28",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "299",
+          "population" : "272955"
+        }
+        , {
+          "page_url" : "san-mateo",
+          "proposed_issuer" : "6",
+          "issuers_this_year" : "25",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/fgfx-n4zc",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/san-mateo",
+          "debt_issued_past_10_years" : "6696",
+          "county" : "San Mateo",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "215",
+          "year" : "2015",
+          "number_of_issuers" : "92",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "898",
+          "population" : "745635"
+        }
+        , {
+          "page_url" : "santa-barbara",
+          "proposed_issuer" : "3",
+          "issuers_this_year" : "6",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/utjm-acts",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/santa-barbara",
+          "debt_issued_past_10_years" : "1817",
+          "county" : "Santa Barbara",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "33",
+          "year" : "2015",
+          "number_of_issuers" : "57",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "36",
+          "population" : "434510"
+        }
+        , {
+          "page_url" : "santa-clara",
+          "proposed_issuer" : "4",
+          "issuers_this_year" : "26",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/7ipu-id8p",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/santa-clara",
+          "debt_issued_past_10_years" : "20573",
+          "county" : "Santa Clara",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "82",
+          "year" : "2015",
+          "number_of_issuers" : "84",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "1951",
+          "population" : "1868038"
+        }
+        , {
+          "page_url" : "santa-cruz",
+          "proposed_issuer" : "1",
+          "issuers_this_year" : "4",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/imxe-v9p9",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/santa-cruz",
+          "debt_issued_past_10_years" : "1488",
+          "county" : "Santa Cruz",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "10",
+          "year" : "2015",
+          "number_of_issuers" : "31",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "168",
+          "population" : "269322"
+        }
+        , {
+          "page_url" : "shasta",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "4",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/9fi8-ytct",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/shasta",
+          "debt_issued_past_10_years" : "514",
+          "county" : "Shasta",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "32",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "16",
+          "population" : "178742"
+        }
+        , {
+          "page_url" : "sierra",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/53m9-gebn",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/sierra",
+          "debt_issued_past_10_years" : "15",
+          "county" : "Sierra",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "3",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "3125"
+        }
+        , {
+          "page_url" : "siskiyou",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "1",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/vr66-tjdr",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/siskiyou",
+          "debt_issued_past_10_years" : "74",
+          "county" : "Siskiyou",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "5",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "6",
+          "population" : "45311"
+        }
+        , {
+          "page_url" : "solano",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "5",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/sbdm-gcxb",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/solano",
+          "debt_issued_past_10_years" : "1346",
+          "county" : "Solano",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "42",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "120",
+          "population" : "425169"
+        }
+        , {
+          "page_url" : "sonoma",
+          "proposed_issuer" : "5",
+          "issuers_this_year" : "16",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/byxt-fhtv",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/sonoma",
+          "debt_issued_past_10_years" : "3165",
+          "county" : "Sonoma",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "106",
+          "year" : "2015",
+          "number_of_issuers" : "84",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "294",
+          "population" : "492320"
+        }
+        , {
+          "page_url" : "stanislaus",
+          "proposed_issuer" : "2",
+          "issuers_this_year" : "18",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/iwwr-azdu",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/stanislaus",
+          "debt_issued_past_10_years" : "4871",
+          "county" : "Stanislaus",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "21",
+          "year" : "2015",
+          "number_of_issuers" : "56",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "221",
+          "population" : "528157"
+        }
+        , {
+          "page_url" : "sutter",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "1",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/di74-rdfw",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/sutter",
+          "debt_issued_past_10_years" : "226",
+          "county" : "Sutter",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "10",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "4",
+          "population" : "95739"
+        }
+        , {
+          "page_url" : "tehama",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "1",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/mafr-qk7d",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/tehama",
+          "debt_issued_past_10_years" : "94",
+          "county" : "Tehama",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "17",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "6",
+          "population" : "64209"
+        }
+        , {
+          "page_url" : "trinity",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "0",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/ujxj-wj73",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/trinity",
+          "debt_issued_past_10_years" : "30",
+          "county" : "Trinity",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "7",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "population" : "13623"
+        }
+        , {
+          "page_url" : "tulare",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "13",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/s8sf-sg4v",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/tulare",
+          "debt_issued_past_10_years" : "2137",
+          "county" : "Tulare",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "80",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "273",
+          "population" : "458827"
+        }
+        , {
+          "page_url" : "tuolumne",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "3",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/7rxs-tmck",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/tuolumne",
+          "debt_issued_past_10_years" : "84",
+          "county" : "Tuolumne",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "17",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "14",
+          "population" : "54150"
+        }
+        , {
+          "page_url" : "ventura",
+          "proposed_issuer" : "2",
+          "issuers_this_year" : "17",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/crcc-cgk3",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/ventura",
+          "debt_issued_past_10_years" : "6287",
+          "county" : "Ventura",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "17",
+          "year" : "2015",
+          "number_of_issuers" : "92",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "593",
+          "population" : "842385"
+        }
+        , {
+          "page_url" : "yolo",
+          "proposed_issuer" : "1",
+          "issuers_this_year" : "6",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/ujqh-ryw4",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/yolo",
+          "debt_issued_past_10_years" : "1279",
+          "county" : "Yolo",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "proposed" : "3",
+          "year" : "2015",
+          "number_of_issuers" : "48",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "88",
+          "population" : "208246"
+        }
+        , {
+          "page_url" : "yuba",
+          "proposed_issuer" : "0",
+          "issuers_this_year" : "2",
+          "data_lens_url" : "https://data.debtwatch.treasurer.ca.gov/view/yf25-t7gc",
+          "data_lens" : "https://data.debtwatch.treasurer.ca.gov/data/yuba",
+          "debt_issued_past_10_years" : "367",
+          "county" : "Yuba",
+          "footnote" : "Includes new money and refinancing issues for all local agencies within the county. Excludes debt of multi-county or State-level issuers.",
+          "year" : "2015",
+          "number_of_issuers" : "18",
+          "as_of_date" : "2015-10-22T00:00:00",
+          "debt_issued_this_year" : "9",
+          "population" : "73690"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:06 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Wed, 07 Oct 2015 11:41:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmnt Fee",
+          "issuer_dataset_match" : "UW Mngmnt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:07 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/48gi-bsn6.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Thu, 29 Oct 2015 13:01:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["body_1","title_3","body_2","title_4",":updated_at","body_3","title_5","body_4","title_1","title_2","body_5","body_6",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["text","text","text","text","meta_data","text","text","text","text","text","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        WyB7CiAgInRpdGxlXzMiIDogIjxoND5EZWJ0IGJ5IENvdW50eTwvaDQ+IiwK
+        ICAiYm9keV8xIiA6ICI8cD5PdmVyIHRoZSBwYXN0IDMwIHllYXJzLCBTdGF0
+        ZSBhbmQgbG9jYWwgZ292ZXJubWVudCBlbnRpdGllcyBpbiBDYWxpZm9ybmlh
+        IGhhdmUgaXNzdWVkIG1vcmUgdGhhbiAkMS41IHRyaWxsaW9uIGluIGRlYnQg
+        dG8gYnVpbGQgaW5mcmFzdHJ1Y3R1cmUsIHByb3ZpZGUgc2VydmljZXMgYW5k
+        IHJlZmluYW5jZSBvdXRzdGFuZGluZyBkZWJ0IHRvIHNhdmUgdGF4cGF5ZXIg
+        bW9uZXkuIFdlIG9mZmVyIHRocmVlIHdheXMgdG8gbGVhcm4gbW9yZSBhYm91
+        dCB0aGVzZSBpc3N1YW5jZXM6PC9wPiIsCiAgInRpdGxlXzQiIDogIjxoND5F
+        eHBsb3JlIEFsbCBEYXRhPC9oND4iLAogICJib2R5XzIiIDogIjxwPkZyb20g
+        dGhlIHR5cGUgb2YgZGVidCBpc3N1ZXJzIChib3Jyb3dlcnMpIHByZXNlbnRl
+        ZCBvbiB0aGUgcmluZywgY2xpY2sgb24gb25lIHRvIHNlZSBhIHN1bW1hcnkg
+        b2YgdGhlIGRlYnQgdGhleeKAmXZlIGlzc3VlZCBvdmVyIHRoZSBsYXN0IDEy
+        IG1vbnRocy4gWW91IHdpbGwgYmUgcHJlc2VudGVkIHdpdGggdGhlIG9wdGlv
+        biB0byBzZWxlY3QgZWl0aGVyIERhdGEgTGVucyB0byBzZWUgbm90YWJsZSBm
+        aW5kaW5ncyBhbmQgdHJlbmRzIGluIGdyYXBoaWNhbCBmb3JtLCBvciBDb21w
+        YXJlIElzc3VlcnMgdG8gY29tcGFyZSB1cCB0byBmaXZlIGJvcnJvd2VycyB3
+        aXRoaW4gdGhhdCB0eXBlLjwvcD4iLAogICJ0aXRsZV81IiA6ICI8aDQ+T3Ro
+        ZXIgSW50ZXJlc3RpbmcgRGVidCBEYXRhPC9oND4iLAogICJib2R5XzMiIDog
+        IjxwPkhvdmVyIG92ZXIgYSBjb3VudHkgb24gdGhlIG1hcCB0byBzZWUgc3Vt
+        bWFyeSBpbmZvcm1hdGlvbiBmb3IgYWxsIGRlYnQgaXNzdWVkIHdpdGhpbiBp
+        dHMgYm9yZGVycy4gU3VtbWFyeSBpbmZvcm1hdGlvbiBpbmNsdWRlcyB0aGUg
+        Y3VycmVudCB5ZWFyIGFuZCBhIHZpZXcgb2YgdGhlIHBhc3QgMTAgeWVhcnMu
+        PC9wPiAgPHA+Q2xpY2sgYSBjb3VudHkgdG8gZ2V0IG1vcmUgZGV0YWlsZWQg
+        aW5mb3JtYXRpb24gYnkgc2VsZWN0aW5nIGVpdGhlciBEYXRhIExlbnMgdG8g
+        c2VlIG5vdGFibGUgZmluZGluZ3MgYW5kIHRyZW5kcyBpbiBncmFwaGljYWwg
+        Zm9ybSwgb3IgQ29tcGFyZSBJc3N1ZXJzIHRvIGNvbXBhcmUgbG9jYWwgZ292
+        ZXJubWVudHMgdGhhdCBpc3N1ZWQgZGVidCB3aXRoaW4gdGhhdCBjb3VudHku
+        PC9wPiIsCiAgImJvZHlfNCIgOiAiPHA+QWNjZXNzIHRoZSB3aG9sZSB1bml2
+        ZXJzZSBvZiBkZWJ0IGRhdGEuPC9wPiIsCiAgInRpdGxlXzEiIDogIjxoND5H
+        ZXQgU3RhcnRlZDwvaDQ+IiwKICAidGl0bGVfMiIgOiAiPGg0PkRlYnQgYnkg
+        SXNzdWVyIFR5cGU8L2g0PiAiLAogICJib2R5XzUiIDogIjx1bD48bGk+PGEg
+        aHJlZj1cImh0dHBzOi8vZGF0YS5kZWJ0d2F0Y2gudHJlYXN1cmVyLmNhLmdv
+        di9Hb3Zlcm5tZW50L0VsZWN0aW9uLURhdGEvdGRhNS1uc3luXCI+RWxlY3Rp
+        b25zIERhdGFzZXQ8L2E+PC9saT48bGk+PGEgaHJlZj1cImh0dHBzOi8vZGF0
+        YS5kZWJ0d2F0Y2gudHJlYXN1cmVyLmNhLmdvdi9Hb3Zlcm5tZW50L01lbGxv
+        LVJvb3MtWWVhcmx5LUZpc2NhbC9kemk1LWszOGtcIj5NZWxsby1Sb29zIFll
+        YXJseSBGaXNjYWwgU3RhdHVzIChZRlMpIERhdGFzZXQ8L2E+PC9saT48L3Vs
+        PiIsCiAgImJvZHlfNiIgOiAiPHA+VG8gcHJvbW90ZSB0cmFuc3BhcmVuY3ks
+        IENhbGlmb3JuaWEgU3RhdGUgVHJlYXN1cmVyIEpvaG4gQ2hpYW5nIGhhcyBw
+        b3N0ZWQgbW9yZSB0aGFuIDIuOCBtaWxsaW9uIGZpZWxkcyBvZiBmaW5hbmNp
+        YWwgaW5mb3JtYXRpb24gZGV0YWlsaW5nIGhvdyBtdWNoIHN0YXRlIGFuZCBs
+        b2NhbCBnb3Zlcm5tZW50cyBoYXZlIGJvcnJvd2VkIG92ZXIgdGhlIHBhc3Qg
+        MzAgeWVhcnMuIFRoZSBkYXRhIGlzIHByZXNlbnRlZCBpbiBhbiA8YSBocmVm
+        PVwiaHR0cHM6Ly9kYXRhLmRlYnR3YXRjaC50cmVhc3VyZXIuY2EuZ292L2ds
+        b3NzYXJ5I29cIj5vcGVuIGRhdGE8L2E+IGZvcm1hdCBhbmQgaXMgdXBkYXRl
+        ZCBtb250aGx5LiBUbyBnZXQgdGhlIG1vc3Qgb3V0IG9mIHRoaXMgc2l0ZSwg
+        d2F0Y2ggPGEgaHJlZj1cImh0dHBzOi8vZGF0YS5kZWJ0d2F0Y2gudHJlYXN1
+        cmVyLmNhLmdvdi90dXRvcmlhbHNcIj52aWRlbyB0dXRvcmlhbHM8L2E+Ljwv
+        cD4gPHA+VGhpcyB3ZWJzaXRlIGlzIGEgd29yay1pbi1wcm9ncmVzcywgYW5k
+        IHdlIGxvb2sgdG8geW91IGZvciBmZWVkYmFjayBvbiBob3cgd2UgY2FuIG1h
+        a2UgaXQgbW9yZSB1c2VyLWZyaWVuZGx5IGFuZCBpbmZvcm1hdGl2ZS4gUGxl
+        YXNlIGZlZWwgZnJlZSB0byA8YSBocmVmPVwiaHR0cDovL3d3dy50cmVhc3Vy
+        ZXIuY2EuZ292L2RlYnR3YXRjaGNvbW1lbnRzLmFzcFwiPnNlbmQgYW55IGNv
+        bW1lbnRzIG9yIGlkZWFzPC9hPiB5b3UgaGF2ZSBhcyB3ZSBleHBhbmQgYW5k
+        IGltcHJvdmUgdGhpcyBzaXRlLjwvcD4gIDxwPjxlbT5UaGUgaW5mb3JtYXRp
+        b24gZGlzcGxheWVkIGlzIGNvbXBpbGVkIGJ5IHRoZSBTdGF0ZSBUcmVhc3Vy
+        ZXLigJlzIE9mZmljZSBmcm9tIHJlcG9ydHMgc3VibWl0dGVkIHRvIHRoZSA8
+        YSBocmVmPVwiaHR0cDovL3d3dy50cmVhc3VyZXIuY2EuZ292L2NkaWFjL2lu
+        ZGV4LmFzcFwiPkNhbGlmb3JuaWEgRGVidCBhbmQgSW52ZXN0bWVudCBBZHZp
+        c29yeSBDb21taXNzaW9uPC9hPiBpbiBhY2NvcmRhbmNlIHdpdGggU3RhdGUg
+        bGF3LiBUaGUgaW5mb3JtYXRpb24gaGFzIG5vdCBiZWVuIGluZGVwZW5kZW50
+        bHkgYXVkaXRlZCBieSB0aGUgU3RhdGUgVHJlYXN1cmVy4oCZcyBPZmZpY2Ug
+        Zm9yIGFjY3VyYWN5IGFuZCBjb21wbGV0ZW5lc3MuIFRoZSByZWxpYWJpbGl0
+        eSBvZiB0aGUgZGF0YSBpcyB0aGUgcmVzcG9uc2liaWxpdHkgb2YgdGhlIHJl
+        cG9ydGluZyBnb3Zlcm5tZW50YWwgYWdlbmN5LjwvZW0+PC9wPiIKfQogXQ==
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:07 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Wed, 07 Oct 2015 11:41:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmnt Fee",
+          "issuer_dataset_match" : "UW Mngmnt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:08 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/kb2t-undf.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Mon, 19 Oct 2015 15:40:59 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["text",":updated_at",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["text","meta_data","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "text" : "<ul>  \t \t<li>Of the $1.5 trillion in debt issued by State and local governments, how much was issued in your community?</li>  \t      <li>Did you know schools issue more new debt than any other local governments?</li>   \t      <li>How much were lawyers paid to issue debt on behalf of your community?</li>   </ul>"
+        }
+        , {
+          "text" : "<ul>\t \t \t<li>How does debt issued in the past year compare between San Jose and San Diego?</li> \t      <li>Did you know voters approved nearly 80 percent of school bonds on the ballot in the past decade?</li>      <li>Did you know that five banks have purchased more than half of the debt issued in California over the past decade?</li>      \t       </ul>"
+        }
+        , {
+          "text" : "<ul> \t \t<li>When was the last time voters passed a bond measure in your community?</li>      <li>Did you know K-12 schools issued more than $46 billion in debt for facilities and equipment during the past decade?</li> \t      \t      <li>Did you know California issuers reported paying $7.7 billion in debt issuance costs in the last decade?</li>  </ul>"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:09 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Wed, 07 Oct 2015 11:41:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmnt Fee",
+          "issuer_dataset_match" : "UW Mngmnt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:10 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/2itf-4v9s.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Mon, 02 Nov 2015 11:34:04 PST
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '["id",":updated_at","debt_issued_in_past_12_months","color_hex","datalens",":id",":created_at","socrata_group","socrata_group_description"]'
+      X-Soda2-Types:
+      - '["number","meta_data","text","text","text","meta_data","meta_data","text","text"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "id" : "1",
+          "debt_issued_in_past_12_months" : "4.8 Billion",
+          "color_hex" : "ba5d9e",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/counties",
+          "socrata_group" : "Counties",
+          "socrata_group_description" : "Debt issued by counties (including San Francisco)"
+        }
+        , {
+          "id" : "2",
+          "debt_issued_in_past_12_months" : "15.4 Billion",
+          "color_hex" : "c79738",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/state-of-california",
+          "socrata_group" : "State of California",
+          "socrata_group_description" : "Debt issued by State and its agencies"
+        }
+        , {
+          "id" : "3",
+          "debt_issued_in_past_12_months" : "17.6 Billion",
+          "color_hex" : "7bbf43",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/k-14",
+          "socrata_group" : "K-14 Schools",
+          "socrata_group_description" : "Debt issued by K-14 school and community college districts"
+        }
+        , {
+          "id" : "4",
+          "debt_issued_in_past_12_months" : "4.4 Billion",
+          "color_hex" : "3d58a1",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/uccsu",
+          "socrata_group" : "UC & CSU",
+          "socrata_group_description" : "Debt issued by University of California, California State University systems"
+        }
+        , {
+          "id" : "5",
+          "debt_issued_in_past_12_months" : "12.4 Billion",
+          "color_hex" : "912666",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/jpa-mark-roos",
+          "socrata_group" : "JPA & Marks-Roos",
+          "socrata_group_description" : "Debt issued by joint powers authorities, including Mark-Roos financings"
+        }
+        , {
+          "id" : "6",
+          "debt_issued_in_past_12_months" : "3.1 Billion",
+          "color_hex" : "a4c944",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/mello-roos",
+          "socrata_group" : "Mello-Roos",
+          "socrata_group_description" : "Debt issued by special financing districts"
+        }
+        , {
+          "id" : "7",
+          "debt_issued_in_past_12_months" : "6.2 Billion",
+          "color_hex" : "c7662e",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/special-districts",
+          "socrata_group" : "Special Districts",
+          "socrata_group_description" : "Debt issued by special districts (water, sewer, etc.)"
+        }
+        , {
+          "id" : "8",
+          "debt_issued_in_past_12_months" : "9.8 Billion",
+          "color_hex" : "329669",
+          "datalens" : "https://data.debtwatch.treasurer.ca.gov/wheel/cities",
+          "socrata_group" : "Cities",
+          "socrata_group_description" : "Debt issued by cities and their agencies (for S.F., see Counties)"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:11 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/j62b-58ny.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Wed, 07 Oct 2015 11:41:33 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","permanent_castos","issuer_dataset_match",":id",":created_at"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","meta_data","meta_data"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: |-
+        [ {
+          "permanent_castos" : "CDIAC Number",
+          "issuer_dataset_match" : "CDIAC Number"
+        }
+        , {
+          "permanent_castos" : "Issuer",
+          "issuer_dataset_match" : "Issuer"
+        }
+        , {
+          "permanent_castos" : "Issuer County",
+          "issuer_dataset_match" : "Issuer County"
+        }
+        , {
+          "permanent_castos" : "Sold Status",
+          "issuer_dataset_match" : "Sold Status"
+        }
+        , {
+          "permanent_castos" : "Federally Taxable",
+          "issuer_dataset_match" : "Federally Taxable"
+        }
+        , {
+          "permanent_castos" : "Sale Date",
+          "issuer_dataset_match" : "Sale Date"
+        }
+        , {
+          "permanent_castos" : "Private Placement Flag",
+          "issuer_dataset_match" : "Private Placement Flag"
+        }
+        , {
+          "permanent_castos" : "Debt Type",
+          "issuer_dataset_match" : "Debt Type"
+        }
+        , {
+          "permanent_castos" : "Principal Amount",
+          "issuer_dataset_match" : "Principal Amount"
+        }
+        , {
+          "permanent_castos" : "Source of Repayment",
+          "issuer_dataset_match" : "Source of Repayment"
+        }
+        , {
+          "permanent_castos" : "Purpose",
+          "issuer_dataset_match" : "Purpose"
+        }
+        , {
+          "permanent_castos" : "Refunding Amount",
+          "issuer_dataset_match" : "Refunding Amount"
+        }
+        , {
+          "permanent_castos" : "TIC Interest Rate",
+          "issuer_dataset_match" : "TIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "NIC Interest Rate",
+          "issuer_dataset_match" : "NIC Interest Rate"
+        }
+        , {
+          "permanent_castos" : "Interest Type",
+          "issuer_dataset_match" : "Interest Type"
+        }
+        , {
+          "permanent_castos" : "Other Interest Type",
+          "issuer_dataset_match" : "Other Interest Type"
+        }
+        , {
+          "permanent_castos" : "Project Name",
+          "issuer_dataset_match" : "Project Name"
+        }
+        , {
+          "permanent_castos" : "CAB Flag",
+          "issuer_dataset_match" : "CAB Flag"
+        }
+        , {
+          "permanent_castos" : "Final Maturity Date",
+          "issuer_dataset_match" : "Final Maturity Date"
+        }
+        , {
+          "permanent_castos" : "S and P Rating",
+          "issuer_dataset_match" : "S and P Rating"
+        }
+        , {
+          "permanent_castos" : "Moody Rating",
+          "issuer_dataset_match" : "Moody Rating"
+        }
+        , {
+          "permanent_castos" : "Fitch Rating",
+          "issuer_dataset_match" : "Fitch Rating"
+        }
+        , {
+          "permanent_castos" : "Other Rating",
+          "issuer_dataset_match" : "Other Rating"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor",
+          "issuer_dataset_match" : "Financial Advisor"
+        }
+        , {
+          "permanent_castos" : "Guarantor Flag",
+          "issuer_dataset_match" : "Guarantor Flag"
+        }
+        , {
+          "permanent_castos" : "Guarantor",
+          "issuer_dataset_match" : "Guarantor"
+        }
+        , {
+          "permanent_castos" : "Underwriter",
+          "issuer_dataset_match" : "Underwriter"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel",
+          "issuer_dataset_match" : "Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel",
+          "issuer_dataset_match" : "Co-Bond Counsel"
+        }
+        , {
+          "permanent_castos" : "Purchaser",
+          "issuer_dataset_match" : "Purchaser"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel",
+          "issuer_dataset_match" : "Borrower Counsel"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel",
+          "issuer_dataset_match" : "Disclosure Counsel"
+        }
+        , {
+          "permanent_castos" : "Trustee",
+          "issuer_dataset_match" : "Trustee"
+        }
+        , {
+          "permanent_castos" : "Issuer Group",
+          "issuer_dataset_match" : "Issuer Group"
+        }
+        , {
+          "permanent_castos" : "UW Expenses",
+          "issuer_dataset_match" : "UW Expenses"
+        }
+        , {
+          "permanent_castos" : "Bond Counsel Fee",
+          "issuer_dataset_match" : "Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Disclosure Counsel Fee",
+          "issuer_dataset_match" : "Disclosure Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Financial Advisor Fee",
+          "issuer_dataset_match" : "Financial Advisor Fee"
+        }
+        , {
+          "permanent_castos" : "Rating Agency Fee",
+          "issuer_dataset_match" : "Rating Agency Fee"
+        }
+        , {
+          "permanent_castos" : "Credit Enhancement Fee",
+          "issuer_dataset_match" : "Credit Enhancement Fee"
+        }
+        , {
+          "permanent_castos" : "Trustee Fee",
+          "issuer_dataset_match" : "Trustee Fee"
+        }
+        , {
+          "permanent_castos" : "Other Issuance Expenses",
+          "issuer_dataset_match" : "Other Issuance Expenses"
+        }
+        , {
+          "permanent_castos" : "Total Issuance Costs",
+          "issuer_dataset_match" : "Total Issuance Costs"
+        }
+        , {
+          "permanent_castos" : "New Money",
+          "issuer_dataset_match" : "New Money"
+        }
+        , {
+          "permanent_castos" : "Issuer Type",
+          "issuer_dataset_match" : "Issuer Type"
+        }
+        , {
+          "permanent_castos" : "Net Issue Discount",
+          "issuer_dataset_match" : "Net Issue Discount"
+        }
+        , {
+          "permanent_castos" : "First Optional Call Date",
+          "issuer_dataset_match" : "First Optional Call Date"
+        }
+        , {
+          "permanent_castos" : "Sale Type (Comp Neg)",
+          "issuer_dataset_match" : "Sale Type (Comp Neg)"
+        }
+        , {
+          "permanent_castos" : "Placement Agent",
+          "issuer_dataset_match" : "Placement Agent"
+        }
+        , {
+          "permanent_castos" : "Issue Cost percent of Principal",
+          "issuer_dataset_match" : "Issue Costs Pct of Principal Amt"
+        }
+        , {
+          "permanent_castos" : "UW Takedown",
+          "issuer_dataset_match" : "UW Takedown"
+        }
+        , {
+          "permanent_castos" : "UW Mngmnt Fee",
+          "issuer_dataset_match" : "UW Mngmnt Fee"
+        }
+        , {
+          "permanent_castos" : "UW Total Discount/Spread",
+          "issuer_dataset_match" : "UW Total Discount/Spread"
+        }
+        , {
+          "permanent_castos" : "Placement Agent Fee",
+          "issuer_dataset_match" : "Placement Agent Fee"
+        }
+        , {
+          "permanent_castos" : "Co-Bond Counsel Fee",
+          "issuer_dataset_match" : "Co-Bond Counsel Fee"
+        }
+        , {
+          "permanent_castos" : "Borrower Counsel Fee",
+          "issuer_dataset_match" : "Borrower Counsel Fee"
+        }
+         ]
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:12 GMT
+- request:
+    method: get
+    uri: https://kerri%40nird.us:Nird1234@data.debtwatch.treasurer.ca.gov/resource/mu7y-d368.json
+    body:
+      encoding: UTF-8
+      string: 'null'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      X-App-Token:
+      - eH8rpWEjcJuXiuHLSwhw3GXSr
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 03 Nov 2015 22:38:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Fri, 11 Sep 2015 18:22:40 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","dataset_link",":id",":created_at","dataset_name"]'
+      X-Soda2-Types:
+      - '["meta_data","url","meta_data","meta_data","text"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '0'
+    body:
+      encoding: UTF-8
+      string: "[ ]"
+    http_version: 
+  recorded_at: Tue, 03 Nov 2015 22:38:12 GMT
+recorded_with: VCR 2.9.3
