@@ -1,6 +1,8 @@
 ## Socrata-DebtWatch
 
-This is a Ruby on Rails/Angular JS app that NIRD/Socrata built for Socrata for the CA Treasurer's Office.
+This is a Ruby on Rails/Angular JS app that NIRD/Socrata built for Socrata for the [CA Treasurer's Office's DebtWatch program](http://debtwatch.treasurer.ca.gov/).
+
+[![Screenshot](screenshot.jpg)](http://debtwatch.treasurer.ca.gov/debt-comparison#?type=type&value=Counties&issuers=Riverside%20County%20Transportation%20Commission&issuers=San%20Diego%20County%20Regional%20Transportation%20Commission&issuers=Los%20Angeles%20County%20Transportation%20Commission)
 
 
 ### JavaScript Tests
