@@ -1,4 +1,4 @@
-##Socrata-DebtWatch
+## Socrata-DebtWatch
 
 This is a Ruby on Rails/Angular JS app that NIRD/Socrata built for Socrata for the CA Treasurer's Office.
 
