@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.1.6'
+ruby '2.3.8'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5.1'
+gem 'rails', '4.2.11.3'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -52,7 +52,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'rack-mini-profiler'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.6'
 end
 
 group :production do
